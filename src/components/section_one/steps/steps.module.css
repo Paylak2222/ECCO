@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .stepBg {
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+    width: 581px;
+    height: 68px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .stepBg:hover {
+    background: #f0f0f0; 
+  }
+  
+  .stepNumber {
+    width: 123px;
+    height: 44px;
+    margin: 12px;
+  }
+  
+  .stepText {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #000;
+  }
+  
