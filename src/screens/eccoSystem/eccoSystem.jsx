@@ -1,4 +1,6 @@
+import Navbar from "../../components/navbar/navbar";
 import Pagination from "../../components/pagination/pagination";
+import Footer from "../../components/footer/Footer";
 import style from "./eccoSystem.module.css";
 import brandIcon from "../../assets/images/Balancer.png";
 import brandIcon2 from "../../assets/images/Balancer2.png";
@@ -35,7 +37,9 @@ export default function EccoSystem() {
     <div className={style.main}>
       <div className="container">
         <header>
-          <div className="menu"></div>
+          <div className="menu">
+            <Navbar />
+          </div>
           <div className={style.content}>
             <div className={style.text}>
               <h1>ECCOsystem</h1>
@@ -74,12 +78,15 @@ export default function EccoSystem() {
           </div>
         </section>
         <section className={style.section__three}>
-          <div className={style.content}>
-            {/* <div className={style.retailers}>
-              <img src={bookSaved} alt="retailers" /> <span>Retailers</span>
-            </div> */}
+          <div className={style.content__retailers}>
+            <div className={style.retailers}>
+              <img src={bookSaved} alt="Book saved" /> <span>Retailers</span>
+            </div>
           </div>
         </section>
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </div>
   );
