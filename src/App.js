@@ -1,12 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import './App.css';
 import Header from "./components/header/Header";
 import EccoSystem from "./screens/eccoSystem/eccoSystem";
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <EccoSystem />
+      <Header />
+      <Footer />
     </div>
   );
 }
