@@ -8,6 +8,11 @@ import brandIcon3 from "../../assets/images/Balancer3.png";
 import informationImage from "../../assets/images/informationImage.png";
 import eccoImage from "../../assets/images/ECCOimage.png";
 import bookSaved from "../../assets/images/booksaved.png";
+import Image1 from "../../assets/images/image-in-text/1.png";
+import Image2 from "../../assets/images/image-in-text/2.png";
+import Image3 from "../../assets/images/image-in-text/3.png";
+import Image4 from "../../assets/images/image-in-text/4.png";
+import Image5 from "../../assets/images/image-in-text/5.png";
 
 const data = [
   {
@@ -82,6 +87,23 @@ export default function EccoSystem() {
             <div className={style.retailers}>
               <img src={bookSaved} alt="Book saved" /> <span>Retailers</span>
             </div>
+            <div className={style.textWithImg}>
+              <span>Cultivators<img src={Image1}  height = "46" width="74" />,Consumers<img src={Image2}  height = "46" width="74" />,Retailers</span>
+              <span>Food safety experts<img src={Image3}  height = "46" width="74" />,Doctors,Brands</span>
+              <span>Public officials<img src={Image4}  height = "46" width="74" /> and labs</span>
+              <span>Help shape<img src={Image5}  height = "46" width="74" /> ECCO’s mission and discover how
+you can make a meaningful impact today</span>
+            </div>
+            <div className={style.inviteText}>
+              <span >We invite you to join a community dedicated to consumer safety and environmental responsibility</span>
+            </div>
+            <div className={style.textWithImg} >
+              <span>Please send your message to</span>
+            </div>
+            <div className={style.block__btn}>
+              <button>Info@ECCOcert.org</button>
+            </div>
+
           </div>
         </section>
         <footer>
