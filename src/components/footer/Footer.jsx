@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 import style from "./footer.module.css";
 import instagram from "../../assets/images/intsa.png";
 import twitter from "../../assets/images/twitter.png";
@@ -9,7 +9,7 @@ import arrow from "../../assets/images/arrow-right.png";
 export default function Footer() {
   const [showEccosystemList, setShowEccosystemList] = useState(false);
   const [resourcesList, setResourcesList] = useState(false);
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("");
   const [isError, setIsError] = useState(false);
 
   const handleButtonClick = () => {
@@ -24,14 +24,14 @@ export default function Footer() {
   const ecco_click = () => {
     setShowEccosystemList(!showEccosystemList);
     if (resourcesList) {
-        setResourcesList(!resourcesList)
+      setResourcesList(!resourcesList);
     }
   };
-  
+
   const res_click = () => {
     setResourcesList(!resourcesList);
     if (showEccosystemList) {
-        setShowEccosystemList(!showEccosystemList)
+      setShowEccosystemList(!showEccosystemList);
     }
   };
 
@@ -43,10 +43,19 @@ export default function Footer() {
           <div className={style.search}>
             <span>Newsletter</span>
             <div className={style.inp_div}>
-              {isError && <label className={style.error_message}>Error: try again later</label>}
+              {isError && (
+                <label className={style.error_message}>
+                  Error: try again later
+                </label>
+              )}
               <div className={style.but_arr}>
-                <input type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} className={isError ? style.error : ''}/>
-              <div onClick={handleButtonClick} className={style.button}></div>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  onChange={(e) => setEmail(e.target.value)}
+                  className={isError ? style.error : ""}
+                />
+                <div onClick={handleButtonClick} className={style.button}></div>
               </div>
             </div>
           </div>
@@ -55,10 +64,10 @@ export default function Footer() {
               <ul>
                 <li className={style.head}>Navigation</li>
                 <li>About</li>
-                <div className={style.row} >
+                <div className={style.row}>
                   <li>Resources</li>
                   <div className={style.icon}>
-                    <img src={arrow} alt="arrow" onClick={res_click}/>
+                    <img src={arrow} alt="arrow" onClick={res_click} />
                   </div>
                 </div>
                 {resourcesList && (
@@ -68,20 +77,20 @@ export default function Footer() {
                     <li>Brand Intake Form</li>
                   </ul>
                 )}
-                <div className={style.row} >
+                <div className={style.row}>
                   <li>ECCOsystem</li>
                   <div className={style.icon}>
-                    <img src={arrow} alt="arrow" onClick={ecco_click}/>
+                    <img src={arrow} alt="arrow" onClick={ecco_click} />
                   </div>
                 </div>
                 {showEccosystemList && (
-                    <div>
-                        <ul>
-                          <li>Brands</li>
-                          <li>Retailers</li>
-                          <li>Labs</li>
-                        </ul>
-                    </div>
+                  <div>
+                    <ul>
+                      <li>Brands</li>
+                      <li>Retailers</li>
+                      <li>Labs</li>
+                    </ul>
+                  </div>
                 )}
                 <li>Education Hub</li>
                 <li>Donate</li>

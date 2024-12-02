@@ -2,6 +2,7 @@ header {
   border-bottom: 1px solid #0000000d;
 }
 .content {
+  margin: 100px 0 0 0;
   width: 380px;
   text-align: start;
 }
@@ -95,12 +96,13 @@ header {
 }
 .section__three {
   background-color: #f9f9f9;
-  padding-top: 80px;
 }
-/* .retailers {
-  display: flex;
-  justify-content: center;
+
+.retailers {
+  margin: 80px 0 32px 0;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
   padding: 12px 24px 12px 24px;
   gap: 8px;
   border-radius: 32px;
@@ -113,4 +115,7 @@ header {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
-} */
+}
+footer {
+  margin-top: 105px;
+}
