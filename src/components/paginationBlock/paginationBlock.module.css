@@ -1,0 +1,89 @@
+.page__block {
+  width: 429px;
+  padding: 16px 16px 24px 16px;
+  background-color: #f9f9f9;
+}
+.content {
+  padding-left: 8px;
+}
+.block__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 304px;
+}
+.block__name {
+  padding-top: 24px;
+  text-align: left;
+  & span {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+.block__file {
+  padding: 16px 0;
+  text-align: left;
+  & button {
+    background-color: #ffffff;
+    padding: 12px 24px 12px 24px;
+    border-radius: 32px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    & span {
+      font-family: Gilroy;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 18.9px;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+}
+.block__desc {
+  padding: 12px 0 24px 0;
+  text-align: left;
+  & span {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+.block__btn {
+  text-align: left;
+  & button {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    top: 429px;
+    left: 24px;
+    padding: 12px 20px 12px 20px;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: none;
+    background-color: #0e4a26;
+    color: #f5e514;
+    transition-duration: 0.3s;
+    &:hover {
+      transform: scale(1.2);
+      cursor: pointer;
+    }
+  }
+}

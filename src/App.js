@@ -1,6 +1,7 @@
 import './App.css';
+import Header from "./components/header/Header";
+import EccoSystem from "./screens/eccoSystem/eccoSystem";
 import Footer from './components/footer/Footer';
-import Header from './components/header/Header';
 
 function App() {
   return (
