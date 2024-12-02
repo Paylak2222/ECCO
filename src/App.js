@@ -1,7 +1,9 @@
 import './App.css';
-import Navbar from './components/navbar/navbar';
 import Header from './components/header/Header';
 import SectionOne from './components/section_one/section_one';
+import Header from "./components/header/Header";
+import EccoSystem from "./screens/eccoSystem/eccoSystem";
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Navbar />
       <SectionOne/>
       {/* <Header /> */}
+      <Header />
+      <Footer />
     </div>
   );
 }

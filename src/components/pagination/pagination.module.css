@@ -1,0 +1,61 @@
+.pagination {
+  margin: 48px 0 80px 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 16px;
+}
+.pagination__title {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & span:first-child {
+    font-family: Gilroy;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 52.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  & span:nth-child(2) {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+.numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.left__arrow,
+.right__arrow {
+  width: 42px;
+  height: 42px;
+  border-radius: 4px;
+  background-position: center;
+  background-color: #f9f9f9;
+  background-repeat: no-repeat;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.left__arrow {
+  background-image: url("../../assets/images/leftarrow.png");
+}
+.right__arrow {
+  background-image: url("../../assets/images/rightarrow.png");
+}
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
