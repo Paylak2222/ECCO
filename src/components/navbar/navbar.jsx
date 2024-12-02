@@ -4,6 +4,7 @@ import LogoEcco from "../logoEcco/logoEcco";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   const [isEccoSystemOpen, setEccoSystemOpen] = useState(false);
   const [isEccoSystemtowOpen, setEccoSystemtowOpen] = useState(false);
 
@@ -13,10 +14,16 @@ const Navbar = () => {
 
   const toggleEccoSystem = () => {
     setEccoSystemOpen(!isEccoSystemOpen);
+    if(isEccoSystemtowOpen){
+      setEccoSystemtowOpen(!isEccoSystemtowOpen)
+    }
   };
 
   const toggleEccoSystemtow = () => {
     setEccoSystemtowOpen(!isEccoSystemtowOpen);
+    if(isEccoSystemOpen){
+      setEccoSystemOpen(!isEccoSystemOpen)
+    }
   };
 
   return (
@@ -72,7 +79,11 @@ const Navbar = () => {
           </li>
 
           <li>Education Hub</li>
-          <li className={styles.donateButton}>Donate</li>
+            <li className={styles.donateButton}>
+              <button type="button">
+                Donate
+              </button>
+            </li>
         </ul>
       </nav>
     </div>

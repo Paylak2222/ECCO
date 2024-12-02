@@ -135,9 +135,25 @@
 @media (max-width: 768px) {
   .menu {
     display: none;
+  } 
+  .donateButton button{
+    width: Fixed (115px)px;
+    height: Fixed (46px)px;
+    top: 8px;
+    left: 591px;
+    padding: 12px 20px 12px 20px;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px;
+    background-color: #004d00;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color:  #F5E514;
   }
-
-  .mobileMenuToggle {
+ .mobileMenuToggle {
     display: block;
   }
 
