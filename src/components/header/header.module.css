@@ -11,8 +11,8 @@
 }
 
 .heading{
-    width: 527px;
-    height: 984px;
+    width: 472px;
+    height: 964px;
     background-color: #FFFFFF;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -59,8 +59,10 @@
 }
 
 .items{
-    width: 453px;
+    width: 463px;
     height: 202px;
     margin-top: 24px;
-    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
