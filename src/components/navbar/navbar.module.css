@@ -3,8 +3,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 100;
 }
@@ -15,14 +13,17 @@
 }
 
 .menu {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  gap: 50px;
-  padding: 8px;
-  border-radius: 12px;
-  border: 1px solid #f9f9f9;
-  background: #f6f6f6;
+    
+    display: flex;
+    flex: 1 1;
+    list-style: none;
+    align-items: center;
+    padding: 8px;
+    justify-content: space-between;
+    border-radius: 12px;
+    border: 1px solid #F9F9F9;
+    background: #ffffff;
+    max-width: 714px;
 }
 
 .menu li {
@@ -37,8 +38,8 @@
 
 .donateButton {
   background-color: #004d00;
-  color: white;
-  padding: 10px 15px;
+  color: #F5E514;
+  padding: 12px 29.5px;
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
@@ -83,6 +84,7 @@
 }
 
 .dropdownTrigger {
+  position: relative;
   background: none;
   border: none;
   font-size: 16px;
@@ -94,14 +96,20 @@
 
 .arrow {
   font-size: 12px;
+  margin-left: 10px;
+  transition: all 0.3s;
+  transform-origin: center center;
+}
+.arrow.rotate {
+  transform: rotate(180deg);
 }
 
 .mobileDropdown {
   position: absolute;
   width: 125px;
   height: 110px;
-  top: 106px;
-  left: 1090px;
+  top: 55px;
+  left: -12px;
   padding: 16px 24px 16px 24px;
   list-style: none;
   display: flex;
@@ -118,8 +126,8 @@
   position: absolute;
   width: 140px;
   height: 110px;
-  top: 106px;
-  left: 920px;
+  top: 55px;
+  left: -30px;
   padding: 16px 24px 16px 24px;
   list-style: none;
   display: flex;
@@ -131,6 +139,18 @@
   align-content: flex-start;
   flex-direction: column;
   align-items: flex-start;
+}
+.button {
+  background:none;
+  font-size: 16px;
+  line-height: 21.5px;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button.active{
+  background: #F9F9F0;
 }
 @media (max-width: 768px) {
   .menu {

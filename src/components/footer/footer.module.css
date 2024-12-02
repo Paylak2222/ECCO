@@ -45,6 +45,7 @@
   }
 }
 .but_arr {
+  position: relative;
   display: flex;
   align-items: center;
 }
@@ -53,7 +54,7 @@
   width: 42px;
   height: 42px;
   position: absolute;
-  left: 386px;
+  right: 14px;
   margin-top: 10px;
   border-radius: 4px;
   background-image: url("../../assets//images/arrow-down.png");
@@ -62,7 +63,9 @@
 
 .info {
   display: flex;
-  gap: 63px;
+  justify-content: space-between;
+  flex: 1;
+  max-width: 650px
 }
 
 .bio {
