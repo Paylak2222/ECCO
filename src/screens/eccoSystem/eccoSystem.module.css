@@ -1,0 +1,116 @@
+header {
+  border-bottom: 1px solid #0000000d;
+}
+.content {
+  width: 380px;
+  text-align: start;
+}
+.text {
+  color: #3a3d40;
+  & h1 {
+    font-family: Gilroy;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 52.5px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+
+  & p {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+.buttons {
+  margin-bottom: 48px;
+  & button {
+    padding: 12px 24px 12px 24px;
+    gap: 8px;
+    border-radius: 32px;
+    font-family: Gilroy;
+    font-weight: 500;
+    border: none;
+    color: #3a3d40;
+    background-color: #f9f9f9;
+    transition-duration: 0.3s;
+
+    &:hover {
+      color: #f5e514;
+      background-color: #0e4a26;
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+}
+.buttons :nth-of-type(2) {
+  margin: 0 12px;
+}
+.section__two {
+  margin-bottom: 128px;
+}
+.information {
+  border-radius: 24px;
+  padding: 24px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+}
+.information__image {
+  position: relative;
+
+  & img:last-child {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+}
+.information__text {
+  padding: 56px 40px 0 48px;
+  & h3 {
+    font-family: Gilroy;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 50.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3a3d40;
+    padding-right: 50px;
+  }
+  & p {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3a3d40;
+  }
+}
+.section__three {
+  background-color: #f9f9f9;
+  padding-top: 80px;
+}
+/* .retailers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px 12px 24px;
+  gap: 8px;
+  border-radius: 32px;
+  background-color: #ffffff;
+  & span {
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18.9px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+} */
