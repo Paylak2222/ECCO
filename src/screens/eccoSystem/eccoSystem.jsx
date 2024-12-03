@@ -5,6 +5,7 @@ import style from "./eccoSystem.module.css";
 import brandIcon from "../../assets/images/Balancer.png";
 import brandIcon2 from "../../assets/images/Balancer2.png";
 import brandIcon3 from "../../assets/images/Balancer3.png";
+import brandIcon4 from "../../assets/images/pdficon.png";
 import informationImage from "../../assets/images/informationImage.png";
 import eccoImage from "../../assets/images/ECCOimage.png";
 import bookSaved from "../../assets/images/booksaved.png";
@@ -35,6 +36,7 @@ const data = [
     desc: "Brand Description",
     icon: brandIcon,
     file: "PDF File",
+    fileIcon: brandIcon4,
   },
 ];
 export default function EccoSystem() {
@@ -88,22 +90,40 @@ export default function EccoSystem() {
               <img src={bookSaved} alt="Book saved" /> <span>Retailers</span>
             </div>
             <div className={style.textWithImg}>
-              <span>Cultivators<img src={Image1}  height = "46" width="74" />,Consumers<img src={Image2}  height = "46" width="74" />,Retailers</span>
-              <span>Food safety experts<img src={Image3}  height = "46" width="74" />,Doctors,Brands</span>
-              <span>Public officials<img src={Image4}  height = "46" width="74" /> and labs</span>
-              <span>Help shape<img src={Image5}  height = "46" width="74" /> ECCO’s mission and discover how
-you can make a meaningful impact today</span>
+              <span>
+                Cultivators
+                <img src={Image1} height="46" width="74" />
+                ,Consumers
+                <img src={Image2} height="46" width="74" />
+                ,Retailers
+              </span>
+              <span>
+                Food safety experts
+                <img src={Image3} height="46" width="74" />
+                ,Doctors,Brands
+              </span>
+              <span>
+                Public officials
+                <img src={Image4} height="46" width="74" /> and labs
+              </span>
+              <span>
+                Help shape
+                <img src={Image5} height="46" width="74" /> ECCO’s mission and
+                discover how you can make a meaningful impact today
+              </span>
             </div>
             <div className={style.inviteText}>
-              <span >We invite you to join a community dedicated to consumer safety and environmental responsibility</span>
+              <span>
+                We invite you to join a community dedicated to consumer safety
+                and environmental responsibility
+              </span>
             </div>
-            <div className={style.textWithImg} >
+            <div className={style.textWithImg}>
               <span>Please send your message to</span>
             </div>
             <div className={style.block__btn}>
               <button>Info@ECCOcert.org</button>
             </div>
-
           </div>
         </section>
         <footer>
