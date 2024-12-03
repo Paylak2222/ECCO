@@ -1,0 +1,60 @@
+.ourTeamBlock{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.ourTeam{
+    width: 312px;
+    height: 268px;
+}
+.ourTitle {
+    font-family: Gilroy;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 52.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3A3D40;
+}
+.ourText{
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3A3D40;
+}
+.teamContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 780px;
+    /* height: 554px; */
+    top: 100px;
+    left: 600px;
+    gap: 16px;
+}
+.teamImg {
+    width: 183px;
+    height: 184px;
+    border-radius: 500px;
+}
+.teamButton{
+    width: 183px;
+    height: 184px;
+    border-radius: 500px;
+    background: #0E4A26;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F5E514;
+    text-align: center;
+}

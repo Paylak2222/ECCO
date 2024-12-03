@@ -8,11 +8,11 @@
     background: #f9f9f9;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     width: 581px;
-    height: 68px;
+    /* height: 48px; */
     border-radius: 10px;
     padding: 5px;
-    margin: 10px auto;
     cursor: pointer;
     transition: background 0.3s ease;
   }
@@ -33,4 +33,13 @@
     line-height: 27px;
     color: #000;
   }
-  
+  .stepDescription{
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 0px 20px;
+  }

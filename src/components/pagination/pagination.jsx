@@ -52,6 +52,7 @@ export default function Pagination({ title, data }) {
             desc={item.desc}
             icon={item.icon}
             file={item.file}
+            fileIcon={item.fileIcon}
           />
         ))}
       </div>

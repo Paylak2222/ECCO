@@ -5,10 +5,9 @@
   }
   .sections{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     margin-top: 122px;
   }
   .sectionOne {
