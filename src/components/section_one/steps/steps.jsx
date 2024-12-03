@@ -62,18 +62,16 @@ const Steps = () => {
   return (
     <div className={styles.container}>
       {steps.map((step, index) => (
-        <div key={index} className={styles.stepBlock}>
-          {
+         <div key={index} className={styles.stepBlock}>
             <div className={styles.stepBg} onClick={() => handleStepClick(index)}>
-            <img src={step.image} alt={step.title} className={styles.stepNumber} />
-            <p className={styles.stepText}>{step.title}</p>
-          </div>
-          }
-          {activeStep === index && ( 
-            <div className={styles.stepDescription}>
-              <p>{step.description}</p>
-            </div>
-          )}
+              <img src={step.image} alt={step.title} className={styles.stepNumber} />
+              <p className={styles.stepText}>{step.title}</p>
+              {activeStep === index && ( 
+                <div className={styles.stepDescription}>
+                  <p>{step.description}</p>
+                </div>
+              )}
+           </div>
         </div>
       ))}
     </div>

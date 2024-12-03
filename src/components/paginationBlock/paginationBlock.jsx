@@ -1,6 +1,5 @@
 import style from "./paginationBlock.module.css";
-import pdfIcon from "../../assets/images/pdficon.png";
-export default function PaginationBlock({ icon, name, desc, file }) {
+export default function PaginationBlock({ icon, name, desc, file, fileIcon }) {
   return (
     <div className={style.page__block}>
       <div className={style.block__image}>
@@ -13,7 +12,7 @@ export default function PaginationBlock({ icon, name, desc, file }) {
         {file && (
           <div className={style.block__file}>
             <button>
-              <img src={pdfIcon} alt="PDF icon" />
+              <img src={fileIcon} alt="PDF icon" />
               <span>{file}</span>
             </button>
           </div>
