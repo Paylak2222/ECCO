@@ -2,6 +2,7 @@
   width: 429px;
   padding: 16px 16px 24px 16px;
   background-color: #f9f9f9;
+  border-radius: 10px;
 }
 .content {
   padding-left: 8px;
@@ -9,9 +10,10 @@
 .block__image {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   background-color: #fff;
   height: 304px;
+  border-radius: 8px;
 }
 .block__name {
   padding-top: 24px;
