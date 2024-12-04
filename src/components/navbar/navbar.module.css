@@ -162,6 +162,9 @@
   background: #F9F9F0;
 }
 @media (max-width: 768px) {
+  .hidMobile {
+    display: none;
+  }
   .menu {
     display: none;
   } 

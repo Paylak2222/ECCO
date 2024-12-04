@@ -6,12 +6,10 @@ import Menu from "../menu/menu";
 const Navbar = () => {
 
   return (
-    <div className="container">
-      <nav className={styles.navbar}>
-        <LogoEcco />
-        <Menu />
-      </nav>
-    </div>
+    <nav className={styles.navbar}>
+      <div className={styles.hidMobile}><LogoEcco /></div>
+      <Menu />
+    </nav>
   );
 };
 

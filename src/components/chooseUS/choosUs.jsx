@@ -30,6 +30,33 @@ export default function ChooseUs() {
       icon: like,
     },
   ];
+  const dataDislike = [
+    {
+      description:
+        "Tested for 106 harmful pesticides / Passed as non-detectable.",
+      icon: dislike,
+    },
+    {
+      description:
+        "Results publicly disclosed on ECCO's website",
+      icon: dislike,
+    },
+    {
+      description:
+        "Products guaranteed contaminant-free",
+      icon: dislike,
+    },
+    {
+        description:
+          "Certification promotes environmentally responsible practices",
+        icon: dislike,
+      },
+      {
+        description:
+          "Monthly audits & continuous compliance monitoring",
+        icon: dislike,
+      },
+  ];
 
       const [currentPage, setCurrentPage] = useState(1);
       const totalPages = 2;

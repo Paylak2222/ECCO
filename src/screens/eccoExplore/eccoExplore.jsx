@@ -12,7 +12,12 @@ import brandFil1 from "../../assets/images/image-Resources-pdf/pdf.png"
 import brandFil2 from "../../assets/images/image-Resources-pdf/pdf.png"
 import brandFil3 from "../../assets/images/image-Resources-pdf/googleForm.png"
 import brandFil4 from "../../assets/images/image-Resources-pdf/googleForm.png"
-import ChoosUs from '../../components/chooseUS/choosUs'
+import mattersImg1 from "../../assets/images/Rectangle.png";
+import mattersImg2 from "../../assets/images/Rectangle2.png";
+import mattersImg3 from "../../assets/images/Rectangle3.png";
+import heartIcon from "../../assets/images/heart.png";
+import bookSavedIcon from "../../assets/images/book-saved.png";
+import starsIcon from "../../assets/images/stars.png";
 import ChooseUs from '../../components/chooseUS/choosUs'
 import QuestionSection from '../../components/questions/Questions'
 import EducationSection from '../../components/educationSection/educationSection'
@@ -101,8 +106,9 @@ export default function EccoExplore() {
       <div className={styles.ecoTeam}>
         <EccoTeam />
       </div>
-        <Pagination title={"Resources"} data={data}/>
-        <ChooseUs/>
+        <Pagination title={"Resources"} data={resourcesData} />
+        <ChooseUs />
+        <Pagination title={"Why it matters"} data={mattersData} />
         <section className={styles.section__six}>
             <EducationSection/>
         </section>

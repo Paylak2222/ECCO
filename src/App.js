@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import SectionOne from "./components/section_one/section_one";
 import EccoExplore from "./screens/eccoExplore/eccoExplore";
@@ -7,9 +8,14 @@ import Home from "./screens/home/home";
 function App() {
   return (
     <div className="App">
-      <Home />
-      {/* <EccoExplore /> */}
-      {/* <EccoSystem /> */}
+      <BrowserRouter >
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/explore" element={<EccoExplore />} />
+        <Route path="/system" element={<EccoSystem />} />
+      </Routes>
+      </BrowserRouter>
+      
     </div>
   );
 }
