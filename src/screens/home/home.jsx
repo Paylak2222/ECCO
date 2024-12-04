@@ -14,6 +14,7 @@ import brandFil3 from "../../assets/images/image-Resources-pdf/googleForm.png";
 import brandFil4 from "../../assets/images/image-Resources-pdf/googleForm.png";
 import EccoTeam from "../../components/eccoTeam/eccoTeam";
 import TouchSection from "../../components/touchSection/touchSection";
+import QuestionSection from "../../components/questions/Questions";
 
 const data = [
   {
@@ -66,8 +67,12 @@ export default function Home() {
           <Pagination title={"Resources"} data={data} />
         </div>
       </section>
-      <section className={style.section__five}></section>
-      <section className={style.section__six}></section>
+      <section className={style.section__five}>
+
+      </section>
+      <section className={style.section__six}>
+        <QuestionSection/>
+      </section>
       <section className={style.section__seven}>
         <EccoTeam />
       </section>

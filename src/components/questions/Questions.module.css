@@ -1,0 +1,86 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.title{
+    font-family: Gilroy;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 52.5px;
+    text-align: center;
+    color: #3A3D40;
+    width: 322px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.block__btn {
+    text-align: left;
+    & button {
+      font-family: Gilroy;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 21.6px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      top: 429px;
+      left: 24px;
+      padding: 12px 20px 12px 20px;
+      gap: 4px;
+      border-radius: 8px;
+      border: 1px 0px 0px 0px;
+      opacity: 0px;
+      border: none;
+      background-color: #0e4a26;
+      color: #f5e514;
+      transition-duration: 0.3s;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.2);
+        
+      }
+    }
+  }
+  .content{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-start;
+    margin-top: -50px;
+    width: 100%;
+  }
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 50%;
+    gap: 16px;
+}
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 50%;
+    gap:16px
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 14px;
+}

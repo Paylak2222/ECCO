@@ -1,10 +1,13 @@
 import { useState } from "react";
 import PaginationBlock from "../paginationBlock/paginationBlock";
 import style from "./pagination.module.css";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 
 export default function Pagination({ title, data }) {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 3;
+  const { width } = useWindowDimensions();
+
+  const itemsPerPage = width<560?1:3;
 
   const totalPages = Math.ceil(data.length / itemsPerPage);
   const currentItems = data.slice(

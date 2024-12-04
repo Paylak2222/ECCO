@@ -159,9 +159,35 @@
 .button.active {
   background: #f9f9f0;
 }
-@media (max-width: 768px) {
+.burger{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  background: #0E4A26;
+  border-radius: 8px;
+
+}
+.logo{
+  display: none;
+}
+@media (max-width: 560px) {
+  .logo {
+    display: block;
+  }
+  .burger{
+    display: flex;
+    cursor: pointer;
+  }
   .menu {
     display: none;
+  }
+  .menuWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
   .donateButton button {
     width: Fixed (115px) px;

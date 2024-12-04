@@ -69,12 +69,13 @@ export default function EccoTeam() {
                         <p>{ourTeam.position}</p>
                     </div>
                 ))}
-                
+                <div className={styles.teamMember}>
                     <button className={styles.teamButton}
                          onClick={() => alert("Hello Team",)}
                     >
                         Get to Know Us
                     </button>
+                    </div>
             </div>
         </div>   
     </div>

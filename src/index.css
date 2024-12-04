@@ -18,3 +18,10 @@ code {
   width: 1320px;
   margin: 0 auto;
 }
+@media (max-width: 560px) {
+  .container {
+    width: auto;
+    padding: 0 20px;
+  }
+  
+}

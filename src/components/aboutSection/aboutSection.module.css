@@ -67,3 +67,66 @@
     display: flex;
     justify-content: flex-end;
   }
+  .about_section_mobile{
+    display: none;
+  }
+  @media (max-width: 560px) {
+    .about_section_mobile{
+      display: flex;
+      flex-direction: column;
+      background-color: #F9F9F9;
+      border-radius: 24px;
+      padding: 20px;
+      justify-content: space-between;
+      align-items: center;
+      gap:45px
+    }
+    .sec_about{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+     & h3{
+       margin: 0;
+       font-family: Gilroy;
+       font-size: 24px;
+       font-weight: 500;
+       line-height: 25.2px;
+       text-align: center;
+       color: #3A3D40;
+     }
+     & span{
+      font-family: Gilroy;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 21px;
+      text-align: center;
+      color:#3A3D40;
+     }
+    }
+    .retailers {
+      padding: 13px 24px;
+      width: auto;
+      & span {
+        font-family: Gilroy;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 18.9px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+    }
+    .about_section{
+      display: none;
+    }
+    .imgs{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      
+    }
+    .end{
+      align-items: end;
+    }
+  }

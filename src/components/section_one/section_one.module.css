@@ -77,3 +77,44 @@
     width: 581px;
 
   }
+  @media (max-width: 560px) {
+    .sectionsContainer{
+      width: 100%;
+    }
+    .sectionOne{
+      width: 100%;
+    
+    }
+    .icon{
+      width: auto;
+      height: auto;
+      padding: 12.5px 24px;
+    }
+    .title{
+      font-size: 24px;
+      line-height: 25.2px;
+      margin: 0;
+    }
+    .descriptionOne{
+      width: 100%;
+      height: auto;
+      font-size: 16px;
+      line-height: 21.6px;
+      margin-top: 16px;
+      margin-bottom: 32px;
+    }
+    .descriptionTwo{
+      width: 100%;
+      height: auto;
+      font-size: 16px;
+      line-height: 21.6px;
+      margin-top: 16px;
+      margin-bottom: 32px;
+    }
+    .sectionTwo{
+      width: 100%;
+    }
+    .stepsSection{
+      width: 100%;
+    }
+  }

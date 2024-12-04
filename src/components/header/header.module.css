@@ -69,3 +69,47 @@
   flex-wrap: wrap;
   gap: 8px;
 }
+@media (max-width: 560px) {
+  .main {
+    flex-direction: column-reverse;
+    height: calc(100vh - 80px);
+  }
+  .heading{
+    width: 100%;
+    height: fit-content;
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .logo{
+    width: 52px;
+    height: 82px;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  .head{
+   margin-left: 16px;
+   height: auto;
+   & span {
+      font-size: 40px;
+      line-height: 42px;
+   }
+  }
+  .desc {
+    margin-left: 16px;
+    width: fit-content;
+    height: fit-content;
+    & span {
+      font-size: 20px;
+      line-height: 27px;
+    }
+  }
+  .items{
+    width: 543px;
+    height: auto;
+    justify-content: center;
+    transform: translateX(-56px);
+    margin-bottom: 24px;
+  }
+}

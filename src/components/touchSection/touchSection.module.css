@@ -42,3 +42,17 @@
 .under {
   text-decoration: underline;
 }
+@media (max-width: 560px) {
+  .content {
+    padding: 59px 24px 37px 24px;
+    width: 100%;
+    & h1 {
+      font-size: 32px;
+      line-height: 36.6px;
+    }
+    & span {
+      font-size: 14px;
+      line-height: 18.9px;
+    }
+  }
+}

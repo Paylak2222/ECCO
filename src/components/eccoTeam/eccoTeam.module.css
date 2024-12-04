@@ -58,3 +58,52 @@
     color: #F5E514;
     text-align: center;
 }
+@media (max-width: 560px) {
+    .ourTeamBlock{
+        margin-top: 100px;
+    }
+    .ourTeam{
+        width: 100%;
+        height: auto;
+    }
+    .ourTitle {
+        font-size: 32px;
+        line-height: 33.5px;
+    }
+    .ourText{
+        font-size: 16px;
+        line-height: 21.6px;
+    }
+    .teamContainer{
+        width: 100%;
+    }
+    .teamImg {
+        width: 114px;
+        height: 114px;
+    }
+    .teamButton{
+        width: 183px;
+        height: 184px;
+    }
+    .teamMember{
+        width: 46%;
+        & h3{
+            font-size: 16px;
+            line-height: 21.6px;
+            color: #3A3D40;
+        }
+        & p{
+            font-size: 12px;
+            line-height: 16.2px;
+            color: #3A3D4066;
+        }
+    }
+    .teamButton{
+        width: 114px;
+        height: 114px;
+        font-size: 14px;
+        line-height: 16.4px;
+        border: 0;
+        padding: 25px;
+    }
+}

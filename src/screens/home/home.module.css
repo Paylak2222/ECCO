@@ -7,3 +7,8 @@ header {
 .section__four {
   margin: 100px 0;
 }
+@media (max-width: 560px) {
+  header {
+    margin-bottom: 53px;
+  }
+}

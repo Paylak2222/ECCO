@@ -37,6 +37,27 @@ export default function AboutSEction() {
                 </div>
             </div>
           </section>
+          <section className={style.about_section_mobile}>
+            <div className={style.imgs} >
+                <img src={pict_1} alt="" width="110" height="137"/>
+                <img src={pict_3} alt="" width="93" height="117"/>
+            </div>
+            <div className={style.sec_about}>
+            <div className={style.retailers}>
+              <img src={emoji} alt="Book saved" /> <span>Main-About Us</span>
+            </div>
+            <h3>
+               Environmental & Consumer Compliance Organization
+            </h3>
+            <span>
+            ECCO is a nonprofit, voluntary certification for cannabis products.  We test our member products for over 100+ contaminants and evaluate and raise environmental and ethical standards in consumer cannabis.
+            </span>
+            </div>
+            <div className={`${style.imgs} ${style.end}`} >
+                <img src={pict_2} alt="" width="163" height="203"/>
+                <img src={pict_4} alt="" width="124" height="154"/>
+            </div>
+         </section>
         </div>
         );
     }

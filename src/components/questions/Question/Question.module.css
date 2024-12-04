@@ -1,0 +1,36 @@
+.questionItem{
+    display: flex;
+    flex-direction: column;
+    padding:24px 32px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #F9F9F9;
+}
+.questionTitle{
+    font-family: Gilroy;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #3A3D40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & img {
+        transition: all 0.3s;
+    }
+}
+.questionAnswer{
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid #E0E0E0;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.6px;
+    text-align: left;
+    color: #3A3D40;
+}
+.arrowDown{
+    transform: rotate(180deg);
+}

@@ -24,3 +24,17 @@
         height: 100%;
     }
 }
+@media (max-width: 560px) {
+    .item{
+        border-radius: 24px;
+        padding: 8.5px 12px;
+        & span{
+            font-size: 14px;
+            line-height: 18.9px;
+        }
+    }
+    .img{
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./menu.module.css";
-
+import BurgerIcon from "../../assets/images/burger-icon.svg";
+import LogoEcco from "../logoEcco/logoEcco";
 const Menu = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -26,7 +27,7 @@ const Menu = () => {
   };
 
   return (
-    <>
+    <div className={styles.menuWrapper}>
       <ul
         className={`${styles.menu} ${isMobileMenuOpen ? styles.menuOpen : ""}`}
       >
@@ -36,15 +37,13 @@ const Menu = () => {
         <li className={styles.dropdown}>
           <button
             onClick={toggleEccoSystem}
-            className={`${styles.dropdownTrigger} ${styles.button} ${
-              isEccoSystemOpen ? styles.active : ""
-            }`}
+            className={`${styles.dropdownTrigger} ${styles.button} ${isEccoSystemOpen ? styles.active : ""
+              }`}
           >
             Resources
             <span
-              className={`${styles.arrow} ${
-                isEccoSystemOpen ? styles.rotate : ""
-              }`}
+              className={`${styles.arrow} ${isEccoSystemOpen ? styles.rotate : ""
+                }`}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -75,15 +74,13 @@ const Menu = () => {
         <li className={styles.dropdown}>
           <button
             onClick={toggleEccoSystemtow}
-            className={`${styles.dropdownTrigger} ${styles.button}  ${
-              isEccoSystemtowOpen ? styles.active : ""
-            }`}
+            className={`${styles.dropdownTrigger} ${styles.button}  ${isEccoSystemtowOpen ? styles.active : ""
+              }`}
           >
             ECCOSystem
             <span
-              className={`${styles.arrow} ${
-                isEccoSystemtowOpen ? styles.rotate : ""
-              }`}
+              className={`${styles.arrow} ${isEccoSystemtowOpen ? styles.rotate : ""
+                }`}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +115,13 @@ const Menu = () => {
           <button type="button">Donate</button>
         </li>
       </ul>
-    </>
+      <div className={styles.logo} >
+        <LogoEcco />
+      </div>
+      <div className={styles.burger}>
+        <img src={BurgerIcon} />
+      </div>
+    </div>
   );
 };
 
