@@ -10,9 +10,9 @@ function App() {
     <div className="App">
       <BrowserRouter >
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/explore" element={<EccoExplore />} />
-        <Route path="/system" element={<EccoSystem />} />
+        <Route path="ECCO/" element={<Home />} />
+        <Route path="ECCO/explore" element={<EccoExplore />} />
+        <Route path="ECCO/system" element={<EccoSystem />} />
       </Routes>
       </BrowserRouter>
       
