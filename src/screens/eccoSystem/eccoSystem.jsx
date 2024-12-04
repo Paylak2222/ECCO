@@ -92,23 +92,23 @@ export default function EccoSystem() {
             <div className={style.textWithImg}>
               <span>
                 Cultivators
-                <img src={Image1} height="46" width="74" />
+                <img src={Image1}  />
                 ,Consumers
-                <img src={Image2} height="46" width="74" />
+                <img src={Image2} />
                 ,Retailers
               </span>
               <span>
                 Food safety experts
-                <img src={Image3} height="46" width="74" />
+                <img src={Image3}/>
                 ,Doctors,Brands
               </span>
               <span>
                 Public officials
-                <img src={Image4} height="46" width="74" /> and labs
+                <img src={Image4} /> and labs
               </span>
               <span>
                 Help shape
-                <img src={Image5} height="46" width="74" /> ECCO’s mission and
+                <img src={Image5} /> ECCO’s mission and
                 discover how you can make a meaningful impact today
               </span>
             </div>

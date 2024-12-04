@@ -122,7 +122,12 @@ header {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 80%
+    font-family: Gilroy;
+    width: 80%;
+    & img{
+      width: 76px;
+      height: 46px;
+    }
 }
 .content__retailers{
   display: flex;
@@ -157,12 +162,48 @@ footer {
     color: #f5e514;
     transition-duration: 0.3s;
     &:hover {
-      transform: scale(1.2);
       cursor: pointer;
+      opacity: 0.8;
+    }
+    &:active{
+      background-color: #0E381F;
     }
   }
 }
+
 .inviteText{
   font-size: 16px;
   width: 28%;
+  font-family: Gilroy;
+}
+
+@media (max-width: 560px) {
+  .information{
+    flex-direction: column;
+  }
+  .information__image{
+    width: 100%;
+  }
+  .information__image > img:first-child{
+    width: 100%;
+    height: 100%;
+  }
+  .information__text{
+    padding: 0;
+    & h3{
+      font-size: 32px;
+    }
+  }
+  .textWithImg {
+    width: 100%;
+    font-size: 16px ;
+    font-family: Gilroy;
+    & img{
+      width: 47px;
+      height: 30px;
+    }
+  }
+  .inviteText{
+    width: 100%;
+  }
 }

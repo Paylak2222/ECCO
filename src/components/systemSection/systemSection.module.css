@@ -48,7 +48,6 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background-color: #f5e514;
   & span{
     font-family: Gilroy;
     font-size: 18px;
@@ -57,8 +56,9 @@
     color: #3A3D40;
   }
 }
-.second_but{
-  background-color:#F9F9F9 ;
+.active {
+  background-color: yellow; 
+  color: black;
 }
 .block__btn {
   text-align: left;
@@ -83,8 +83,11 @@
     transition-duration: 0.3s;
     cursor: pointer;
     &:hover {
-      transform: scale(1.2);
-      
+      cursor: pointer;
+      opacity: 0.8;
+    }
+    &:active{
+      background-color: #0E381F;
     }
   }
 }
@@ -141,4 +144,15 @@ sub{
   font-size: 24px;
   font-weight: 500;
   line-height: 32.4px;
+}
+
+@media (max-width: 560px) {
+  .system__section{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .slider{
+    width: 100%;
+    height: auto;
+  }
 }

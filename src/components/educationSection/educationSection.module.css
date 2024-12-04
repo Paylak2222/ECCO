@@ -72,8 +72,11 @@
     color: #f5e514;
     transition-duration: 0.3s;
     &:hover {
-      transform: scale(1.2);
       cursor: pointer;
+      opacity: 0.8;
+    }
+    &:active{
+      background-color: #0E381F;
     }
   }
 }

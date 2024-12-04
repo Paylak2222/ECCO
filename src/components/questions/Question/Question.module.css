@@ -34,3 +34,9 @@
 .arrowDown{
     transform: rotate(180deg);
 }
+
+@media (max-width: 560px) {
+.questionItem{
+   padding: 17px 4px;
+}    
+}
