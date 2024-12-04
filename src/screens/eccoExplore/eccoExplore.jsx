@@ -12,6 +12,8 @@ import brandFil1 from "../../assets/images/image-Resources-pdf/pdf.png"
 import brandFil2 from "../../assets/images/image-Resources-pdf/pdf.png"
 import brandFil3 from "../../assets/images/image-Resources-pdf/googleForm.png"
 import brandFil4 from "../../assets/images/image-Resources-pdf/googleForm.png"
+import ChoosUs from '../../components/chooseUS/choosUs'
+import ChooseUs from '../../components/chooseUS/choosUs'
 export default function EccoExplore() {
   const data = [
     {
@@ -43,6 +45,10 @@ export default function EccoExplore() {
       fileIcon: brandFil4,
     },
   ];
+
+  const imageData = [
+    
+  ]
   return (
     <div className='container'>
       <div className={styles.ecoNav}>
@@ -55,6 +61,8 @@ export default function EccoExplore() {
         <EccoTeam/>
       </div>
         <Pagination title={"Resources"} data={data}/>
+        <ChooseUs/>
+        <Pagination title={"Why it matters"} />
     </div>
   )
 }
