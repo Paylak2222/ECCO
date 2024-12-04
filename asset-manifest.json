@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ECCO/static/css/main.a6eda933.css",
-    "main.js": "/ECCO/static/js/main.d65868a0.js",
+    "main.js": "/ECCO/static/js/main.b58114d3.js",
     "static/js/453.71af8548.chunk.js": "/ECCO/static/js/453.71af8548.chunk.js",
     "static/media/header.png": "/ECCO/static/media/header.bf1d169078ed01bc4105.png",
     "static/media/informationImage.png": "/ECCO/static/media/informationImage.290eedd1374d4e662be4.png",
@@ -73,11 +73,11 @@
     "static/media/burger-icon.svg": "/ECCO/static/media/burger-icon.b723230a6007eb42c4ffc7d0debf7c69.svg",
     "static/media/x-close.svg": "/ECCO/static/media/x-close.c5e0724fb6279496659299cb125c0698.svg",
     "main.a6eda933.css.map": "/ECCO/static/css/main.a6eda933.css.map",
-    "main.d65868a0.js.map": "/ECCO/static/js/main.d65868a0.js.map",
+    "main.b58114d3.js.map": "/ECCO/static/js/main.b58114d3.js.map",
     "453.71af8548.chunk.js.map": "/ECCO/static/js/453.71af8548.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6eda933.css",
-    "static/js/main.d65868a0.js"
+    "static/js/main.b58114d3.js"
   ]
 }
