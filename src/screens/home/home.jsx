@@ -15,6 +15,8 @@ import brandFil4 from "../../assets/images/image-Resources-pdf/googleForm.png";
 import EccoTeam from "../../components/eccoTeam/eccoTeam";
 import TouchSection from "../../components/touchSection/touchSection";
 import QuestionSection from "../../components/questions/Questions";
+import SystemSection from "../../components/systemSection/systemSection";
+import Footer from "../../components/footer/Footer";
 
 const data = [
   {
@@ -68,10 +70,10 @@ export default function Home() {
         </div>
       </section>
       <section className={style.section__five}>
-
+        <QuestionSection/>
       </section>
       <section className={style.section__six}>
-        <QuestionSection/>
+        <SystemSection />
       </section>
       <section className={style.section__seven}>
         <EccoTeam />
@@ -79,6 +81,9 @@ export default function Home() {
       <section className={style.section__eight}>
         <TouchSection />
       </section>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

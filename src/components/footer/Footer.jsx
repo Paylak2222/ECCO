@@ -36,7 +36,7 @@ export default function Footer() {
   };
 
   return (
-    <>
+    <div className="container">
       <div className={style.main}>
         <div className={style.logo}></div>
         <div className={style.footer}>
@@ -145,6 +145,6 @@ export default function Footer() {
           <span>Terms & Conditions</span>
         </div>
       </div>
-    </>
+    </div>
   );
 }

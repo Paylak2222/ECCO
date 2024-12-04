@@ -1,0 +1,144 @@
+.system__section {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.title{
+  font-family: Gilroy;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 52.5px;
+  text-align: center;
+  color: #3A3D40;
+  width: 322px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.description{
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: center;
+  color: #3A3D40;
+  width: 297px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.retailers{
+  width: 293px;
+  height: 48px;
+  display: flex;
+  background-color: #F9F9F9;
+  border-radius: 32px;
+  margin-bottom: 16px;
+}
+.first_but{
+  cursor: pointer;
+  width: 50%;
+  height: 100%;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #f5e514;
+  & span{
+    font-family: Gilroy;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18.9px;
+    color: #3A3D40;
+  }
+}
+.second_but{
+  background-color:#F9F9F9 ;
+}
+.block__btn {
+  text-align: left;
+  & button {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    top: 429px;
+    left: 24px;
+    padding: 12px 20px 12px 20px;
+    gap: 4px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: none;
+    background-color: #0e4a26;
+    color: #f5e514;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+      
+    }
+  }
+}
+.slider{
+  width: 581px;
+  height: 584px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.left__arrow,
+.right__arrow {
+  width: 42px;
+  height: 42px;
+  border-radius: 4px;
+  background-position: center;
+  background-color: #f9f9f9;
+  background-repeat: no-repeat;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.left__arrow {
+  background-image: url("../../assets/images/leftarrow.png");
+}
+.right__arrow {
+  background-image: url("../../assets/images/rightarrow.png");
+}
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.slide{
+  align-items: flex-end;
+  gap: 28px;
+  display: flex;
+  flex-direction: column;
+}
+sub{
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32.4px;
+}
+.cur_span{
+  font-family: Gilroy;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32.4px;
+}
