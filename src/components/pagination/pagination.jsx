@@ -2,12 +2,13 @@ import { useState } from "react";
 import PaginationBlock from "../paginationBlock/paginationBlock";
 import style from "./pagination.module.css";
 import useWindowDimensions from "../../hooks/useWindowDimensions";
+import Matters from "../matters/matters";
 
 export default function Pagination({ title, data }) {
   const [currentPage, setCurrentPage] = useState(1);
   const { width } = useWindowDimensions();
 
-  const itemsPerPage = width<560?1:3;
+  const itemsPerPage = width < 560 ? 1 : 3;
 
   const totalPages = Math.ceil(data.length / itemsPerPage);
   const currentItems = data.slice(
@@ -48,16 +49,26 @@ export default function Pagination({ title, data }) {
         </div>
       </div>
       <div className={style.pagination}>
-        {currentItems.map((item, index) => (
-          <PaginationBlock
-            key={index}
-            name={item.name}
-            desc={item.desc}
-            icon={item.icon}
-            file={item.file}
-            fileIcon={item.fileIcon}
-          />
-        ))}
+        {currentItems.map((item, index) => {
+          return item.type === "resources" ? (
+            <PaginationBlock
+              key={index}
+              name={item.name}
+              desc={item.desc}
+              icon={item.icon}
+              file={item.file}
+              fileIcon={item.fileIcon}
+            />
+          ) : item.type === "matters" ? (
+            <Matters
+              key={index}
+              name={item.name}
+              desc={item.desc}
+              image={item.image}
+              icon={item.icon}
+            />
+          ) : null;
+        })}
       </div>
     </>
   );
