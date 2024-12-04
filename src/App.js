@@ -7,8 +7,8 @@ import Home from "./screens/home/home";
 function App() {
   return (
     <div className="App">
-      <Home />
-      {/* <EccoExplore /> */}
+      {/* <Home /> */}
+      <EccoExplore />
       {/* <EccoSystem /> */}
     </div>
   );
