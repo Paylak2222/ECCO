@@ -145,3 +145,62 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 
 }
+.numbers{
+    display: none;
+}
+
+@media screen and (max-width: 560px){
+    .title{
+        font-size: 32px;
+        line-height: 33.6px;
+    }
+    .description{
+        font-size: 20px;
+        line-height: 21.6px;
+    }
+    .cards{
+        width: 100%;
+        height: auto;
+        
+    }
+    .cards_left{
+        width: 100%;
+        height: auto;
+    }
+    .cards_right{
+        width: 100%;
+        height: auto;
+    }
+    .cards_heading{
+        width: auto;
+        
+    }
+    .numbers {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 16px;
+      }
+      .left__arrow,
+      .right__arrow {
+        width: 42px;
+        height: 42px;
+        border-radius: 4px;
+        background-position: center;
+        background-color: #f9f9f9;
+        background-repeat: no-repeat;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      .left__arrow {
+        background-image: url("../../assets/images/leftarrow.png");
+      }
+      .right__arrow {
+        background-image: url("../../assets/images/rightarrow.png");
+      }
+      .disabled {
+        opacity: 0.5;
+        pointer-events: none;
+      }
+}

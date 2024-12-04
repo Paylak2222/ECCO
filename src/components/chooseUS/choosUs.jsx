@@ -3,6 +3,7 @@ import styles from "./chooseUs.module.css";
 import eccoImg from  '../../assets/images/Ecco.png'
 import like from '../../assets/images/likegreen2.png'
 import dislike from '../../assets/images/dislike.png'
+import { useState } from 'react';
 
 export default function ChooseUs() {
     const dataLike = [
@@ -61,9 +62,20 @@ export default function ChooseUs() {
           },
       ];
 
-
+      const [currentPage, setCurrentPage] = useState(1);
+      const totalPages = 2;
+      const handleNextPage = () => {
+        if (currentPage < totalPages) {
+          setCurrentPage(currentPage + 1);
+        }
+      };
+      const handlePrevPage = () => {
+        if (currentPage > 1) {
+          setCurrentPage(currentPage - 1);
+        }
+      };
   return (
-    <div className='container'>
+    <div>
         <div className={styles.title_container}>
             <span className={styles.title}>
                 Why choose us
@@ -72,8 +84,25 @@ export default function ChooseUs() {
                 Our Standards
             </span>
         </div>
+        <div className={styles.numbers}>
+          <div
+            className={`${styles.left__arrow} ${
+              currentPage === 1 ? styles.disabled : ""
+            }`}
+            onClick={handlePrevPage}
+          ></div>
+          <span>
+            {currentPage}/<sub>{totalPages}</sub>
+          </span>
+          <div
+            className={`${styles.right__arrow} ${
+              currentPage === totalPages ? styles.disabled : ""
+            }`}
+            onClick={handleNextPage}
+          ></div>
+        </div>
         <div className={styles.cards}>
-            <div className={styles.cards_left}>
+            {currentPage===1 && <div className={styles.cards_left}>
                <div className={styles.cards_heading}>
                 <img className={styles.eccoImage} src={eccoImg} alt='Ecco Logo' />
                 <div className={styles.text_container}>
@@ -91,8 +120,8 @@ export default function ChooseUs() {
                         )
                     })}
                 </div>
-            </div>
-            <div className={styles.cards_right}>
+            </div>}
+            {currentPage===2 && <div className={styles.cards_right}>
             <div className={styles.cards_left}>
                <div className={styles.cards_heading}>
                 <div className={styles.text_container_right}>
@@ -111,7 +140,7 @@ export default function ChooseUs() {
                     })}
                 </div>
             </div>
-            </div>
+            </div>}
         </div>
     </div>
   )

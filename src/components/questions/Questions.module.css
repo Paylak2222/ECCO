@@ -87,7 +87,9 @@
     justify-content: flex-start;
     gap: 14px;
 }
-
+.showMobile{
+    display: none;
+}
 @media (max-width: 560px) {
   .wrapper{
     width: 100%;
@@ -102,5 +104,19 @@
   }
   .rightSide{
     width: 100%;
+  }
+  .hideMobile{
+    display: none;
+  }
+  .showMobile{
+    display: flex;
+  }
+  .image1{
+    width: 157px;
+    height: 217px;
+  }
+  .image2{
+    height: 217px;
+    width: 217px;
   }
 }

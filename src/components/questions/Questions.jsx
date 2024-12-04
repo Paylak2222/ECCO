@@ -29,8 +29,8 @@ const questions = [
     {
         question: "How can I learn more about ECCO certification?",
         answer: "To learn more about ECCO certification and how your cannabis brand can become certified, please contact us at"
-    },  
-]; 
+    },
+];
 
 const QuestionSection = () => {
     return (
@@ -42,19 +42,25 @@ const QuestionSection = () => {
                 </div>
                 <div className={style.content}>
                     <div className={style.leftSide}>
-                    <div className={style.row}>
-                        <div className={style.col}><img src={Image1} /></div>
-                        <div className={style.col}><img src={Image2} /></div>
-                    </div>
-                    <div  className={style.row}>
-                        <div className={style.col}><img src={Image3} /></div>
-                        <div className={style.col}><img src={Image4} /></div>
-                    </div>
+                        <div className={style.row}>
+                            <div className={style.col}><img src={Image1} className={style.image1} /></div>
+                            <div className={style.col}><img src={Image2}  className={style.image2} /></div>
+                        </div>
+                        <div className={`${style.row} ${style.hideMobile}`}>
+                            <div className={style.col}><img src={Image3} /></div>
+                            <div className={style.col}><img src={Image4} /></div>
+                        </div>
                     </div>
                     <div className={style.rightSide}>
                         {questions.map((item, index) => (
                             <Question key={index} question={item.question} answer={item.answer} />
                         ))}
+                    </div>
+                    <div className={style.leftSide}>
+                        <div className={`${style.row} ${style.showMobile}`}>
+                            <div className={style.col}><img src={Image3} /></div>
+                            <div className={style.col}><img src={Image4} /></div>
+                        </div>
                     </div>
                 </div>
             </div>

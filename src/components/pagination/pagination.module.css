@@ -59,3 +59,24 @@
   opacity: 0.5;
   pointer-events: none;
 }
+@media (max-width: 560px) {
+
+  .pagination__title {
+    & span:first-child {
+      font-size: 32px;
+      line-height: 33.6px;
+    }
+    & span:nth-child(2) {
+      font-size: 16px;
+      line-height: 21.6px;
+    }
+  }
+  .numbers {
+    flex-wrap: wrap;
+  }
+  .left__arrow,
+  .right__arrow {
+    width: 32px;
+    height: 32px;
+  }
+}

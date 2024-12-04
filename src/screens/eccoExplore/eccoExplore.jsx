@@ -14,6 +14,9 @@ import brandFil3 from "../../assets/images/image-Resources-pdf/googleForm.png"
 import brandFil4 from "../../assets/images/image-Resources-pdf/googleForm.png"
 import ChoosUs from '../../components/chooseUS/choosUs'
 import ChooseUs from '../../components/chooseUS/choosUs'
+import QuestionSection from '../../components/questions/Questions'
+import EducationSection from '../../components/educationSection/educationSection'
+import Footer from '../../components/footer/Footer'
 export default function EccoExplore() {
   const data = [
     {
@@ -62,7 +65,15 @@ export default function EccoExplore() {
       </div>
         <Pagination title={"Resources"} data={data}/>
         <ChooseUs/>
-        <Pagination title={"Why it matters"} />
+        <section className={styles.section__six}>
+            <EducationSection/>
+        </section>
+        <section className={styles.section__five}>
+        <QuestionSection/>
+        </section>
+        <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }
