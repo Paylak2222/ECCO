@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import styles from "./chooseUs.module.css";
 import eccoImg from  '../../assets/images/Ecco.png'
 import like from '../../assets/images/likegreen2.png'
@@ -6,61 +6,30 @@ import dislike from '../../assets/images/dislike.png'
 import { useState } from 'react';
 
 export default function ChooseUs() {
-    const dataLike = [
-        {
-          description:
-            "Tested for 106 harmful pesticides / Passed as non-detectable.",
-          icon: like,
-        },
-        {
-          description:
-            "Results publicly disclosed on ECCO's website",
-          icon: like,
-        },
-        {
-          description:
-            "Products guaranteed contaminant-free",
-          icon: like,
-        },
-        {
-            description:
-              "Certification promotes environmentally responsible practices",
-            icon: like,
-          },
-          {
-            description:
-              "Monthly audits & continuous compliance monitoring",
-            icon: like,
-          },
-      ];
-
-      const dataDislike = [
-        {
-          description:
-            "Tested for 106 harmful pesticides / Passed as non-detectable.",
-          icon: dislike,
-        },
-        {
-          description:
-            "Results publicly disclosed on ECCO's website",
-          icon: dislike,
-        },
-        {
-          description:
-            "Products guaranteed contaminant-free",
-          icon: dislike,
-        },
-        {
-            description:
-              "Certification promotes environmentally responsible practices",
-            icon: dislike,
-          },
-          {
-            description:
-              "Monthly audits & continuous compliance monitoring",
-            icon: dislike,
-          },
-      ];
+  const dataLike = [
+    {
+      description:
+        "Tested for 106 harmful pesticides / Passed as non-detectable.",
+      icon: like,
+    },
+    {
+      description: "Results publicly disclosed on ECCO's website",
+      icon: like,
+    },
+    {
+      description: "Products guaranteed contaminant-free",
+      icon: like,
+    },
+    {
+      description:
+        "Certification promotes environmentally responsible practices",
+      icon: like,
+    },
+    {
+      description: "Monthly audits & continuous compliance monitoring",
+      icon: like,
+    },
+  ];
 
       const [currentPage, setCurrentPage] = useState(1);
       const totalPages = 2;
@@ -142,6 +111,6 @@ export default function ChooseUs() {
             </div>
             </div>}
         </div>
-    </div>
-  )
+      </div>
+  );
 }

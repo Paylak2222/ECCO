@@ -18,15 +18,17 @@ import QuestionSection from '../../components/questions/Questions'
 import EducationSection from '../../components/educationSection/educationSection'
 import Footer from '../../components/footer/Footer'
 export default function EccoExplore() {
-  const data = [
+  const resourcesData = [
     {
+      type: "resources",
       name: "Standards",
       desc: "ECCO Technical Certification Standards - Pesticides Panel 2025",
       icon: brandIcon1,
       file: "PDF File",
-      fileIcon : brandFil1,
+      fileIcon: brandFil1,
     },
     {
+      type: "resources",
       name: "Manual",
       desc: "Coming soon...",
       icon: brandIcon2,
@@ -34,6 +36,7 @@ export default function EccoExplore() {
       fileIcon: brandFil2,
     },
     {
+      type: "resources",
       name: "Brand Intake Form",
       desc: "Thank you for your interest in becoming ECCO Certified!",
       icon: brandIcon3,
@@ -41,6 +44,7 @@ export default function EccoExplore() {
       fileIcon: brandFil3,
     },
     {
+      type: "resources",
       name: "Brand Intake Form",
       desc: "Coming soon...",
       icon: brandIcon4,
@@ -49,19 +53,53 @@ export default function EccoExplore() {
     },
   ];
 
-  const imageData = [
-    
-  ]
+  const mattersData = [
+    {
+      type: "matters",
+      name: "Enhanced consumer trust",
+      desc: "The ECCO Certification mark signifies that the product has undergone rigorous testing, surpassing regulatory compliance, and assures consumers of the products’ quality.",
+      icon: heartIcon,
+      image: mattersImg1,
+    },
+    {
+      type: "matters",
+      name: "Enhanced retail exposure",
+      desc: "ECCO Certification can lead to preferred treatment in retail settings within the ECCO preferred retail partner system.",
+      icon: bookSavedIcon,
+      image: mattersImg2,
+    },
+    {
+      type: "matters",
+      name: "Consumer Engagement",
+      desc: "ECCO’s consumer education and retail staff appreciation initiatives, allow brands to engage directly with health - conscious consumers and industry tastemakers.",
+      icon: starsIcon,
+      image: mattersImg3,
+    },
+    {
+      type: "matters",
+      name: "Enhanced consumer trust",
+      desc: "The ECCO Certification mark signifies that the product has undergone rigorous testing, surpassing regulatory compliance, and assures consumers of the products’ quality.",
+      icon: heartIcon,
+      image: mattersImg1,
+    },
+    {
+      type: "matters",
+      name: "Consumer Engagement",
+      desc: "ECCO’s consumer education and retail staff appreciation initiatives, allow brands to engage directly with health - conscious consumers and industry tastemakers.",
+      icon: starsIcon,
+      image: mattersImg3,
+    },
+  ];
   return (
-    <div className='container'>
+    <div className="container">
       <div className={styles.ecoNav}>
-        <Navbar/>
+        <Navbar />
       </div>
       <div className={styles.ecoSection}>
-        <SectionOne/>
+        <SectionOne />
       </div>
       <div className={styles.ecoTeam}>
-        <EccoTeam/>
+        <EccoTeam />
       </div>
         <Pagination title={"Resources"} data={data}/>
         <ChooseUs/>
@@ -75,5 +113,5 @@ export default function EccoExplore() {
         <Footer />
       </footer>
     </div>
-  )
+  );
 }
