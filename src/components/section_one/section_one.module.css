@@ -25,14 +25,15 @@
   }
   
   .icon {
-    width: 307px;
-    height: 62px;
     padding: 12px 24px 12px 24px;
     gap: 8px;
     border-radius: 32px;
     background: #F9F9F9;
     display: flex;
     align-items: center;
+    & h2 {
+      margin:0
+    }
   }
   
   .title {

@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from './section_one.module.css';
 import Steps from './steps/steps';
-
+import redFlag from '../../assets/images/red-flag.svg';
+import Like from '../../assets/images/like.svg';
 const SectionOne = () => {
     return (
     <div className='container'>
         <div className={styles.sections}>
                 <div className={styles.sectionsContainer}>
                     <div className={styles.sectionOne}>
-                            <div className={styles.icon}>🚩
+                            <div className={styles.icon}><img src={redFlag} />
                                 <h2 className={styles.title}>The Problem:</h2>
                             </div>
                                 <p className={styles.descriptionOne}>
@@ -16,7 +17,7 @@ const SectionOne = () => {
                                 </p>
                     </div>
                     <div className={styles.sectionTwo}>
-                        <div className={styles.icon}>👍
+                        <div className={styles.icon}><img src={Like} />
                             <h2 className={styles.title}>A Solution:</h2>
                         </div>
                             <p className={styles.descriptionTwo}>
