@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Item from "../item/Item";
 import style from "./header.module.css";
 import share from "../../assets/images/share.png";
@@ -13,7 +14,9 @@ export default function Header() {
   return (
     <div className={style.main}>
       <div className={style.heading}>
-        <div className={style.logo}> </div>
+        <Link to="/">
+          <div className={style.logo}> </div>
+        </Link>
         <div className={style.head}>
           <span>
             Certifying Goods for Consumer{" "}

@@ -8,14 +8,13 @@ import Home from "./screens/home/home";
 function App() {
   return (
     <div className="App">
-      <HashRouter  >
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/explore" element={<EccoExplore />} />
-        <Route path="/system" element={<EccoSystem />} />
-      </Routes>
-      </HashRouter >
-      
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/explore" element={<EccoExplore />} />
+          <Route path="/system" element={<EccoSystem />} />
+        </Routes>
+      </HashRouter>
     </div>
   );
 }

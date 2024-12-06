@@ -20,6 +20,7 @@ import Footer from "../../components/footer/Footer";
 
 const data = [
   {
+    type: "resources",
     name: "Standards",
     desc: "ECCO Technical Certification Standards - Pesticides Panel 2025",
     icon: brandIcon1,
@@ -27,6 +28,7 @@ const data = [
     fileIcon: brandFil1,
   },
   {
+    type: "resources",
     name: "Manual",
     desc: "Coming soon...",
     icon: brandIcon2,
@@ -34,6 +36,7 @@ const data = [
     fileIcon: brandFil2,
   },
   {
+    type: "resources",
     name: "Brand Intake Form",
     desc: "Thank you for your interest in becoming ECCO Certified!",
     icon: brandIcon3,
@@ -41,6 +44,7 @@ const data = [
     fileIcon: brandFil3,
   },
   {
+    type: "resources",
     name: "Brand Intake Form",
     desc: "Coming soon...",
     icon: brandIcon4,
@@ -70,7 +74,7 @@ export default function Home() {
         </div>
       </section>
       <section className={style.section__five}>
-        <QuestionSection/>
+        <QuestionSection />
       </section>
       <section className={style.section__six}>
         <SystemSection />

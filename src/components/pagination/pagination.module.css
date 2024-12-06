@@ -8,8 +8,9 @@
 .pagination__title {
   margin-top: 48px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: start;
 
   & span:first-child {
     font-family: Gilroy;
@@ -36,6 +37,7 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
+  align-self: end;
 }
 .left__arrow,
 .right__arrow {
@@ -60,7 +62,6 @@
   pointer-events: none;
 }
 @media (max-width: 560px) {
-
   .pagination__title {
     & span:first-child {
       font-size: 32px;
