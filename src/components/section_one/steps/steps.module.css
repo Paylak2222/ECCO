@@ -1,66 +1,67 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stepBg {
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 581px;
+  /* height: 48px; */
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.stepBg:hover {
+  background: #f0f0f0;
+}
+
+.stepNumber {
+  width: 123px;
+  height: 44px;
+  margin: 12px;
+}
+
+.stepText {
+  font-family: "Gilroy";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #000;
+}
+.stepDescription {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding: 0px 20px;
+}
+@media (max-width: 560px) {
   .stepBg {
-    background: #f9f9f9;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 581px;
-    /* height: 48px; */
-    border-radius: 10px;
-    padding: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
+    width: auto;
+    padding: 12px;
   }
-  
-  .stepBg:hover {
-    background: #f0f0f0; 
-  }
-  
-  .stepNumber {
-    width: 123px;
-    height: 44px;
-    margin: 12px;
-  }
-  
   .stepText {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 27px;
-    color: #000;
-  }
-  .stepDescription{
-    font-family: Gilroy;
     font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+    margin: 0px;
+  }
+  .stepDescription {
+    font-size: 14px;
     font-weight: 500;
-    line-height: 22.4px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    padding: 0px 20px;
+    line-height: 19.6px;
   }
-  @media (max-width: 560px) {
-    .stepBg {
-      width: auto;
-      padding: 12px;
-    }
-    .stepText{
-      font-size: 16px;
-      font-weight: 600;
-      line-height: 21.6px;
-      margin: 0px;
-    }
-    .stepDescription{
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 19.6px;
-    }
-    .stepNumber {
-      transform: scale(0.8);
-      margin: 0px;
-    }
+  .stepNumber {
+    transform: scale(0.8);
+    margin: 0px;
   }
+}

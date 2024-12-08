@@ -1,4 +1,4 @@
-import AboutSEction from "../../components/aboutSection/aboutSection";
+import AboutSection from "../../components/aboutSection/aboutSection";
 import EducationSection from "../../components/educationSection/educationSection";
 import Header from "../../components/header/Header";
 import Pagination from "../../components/pagination/pagination";
@@ -60,7 +60,7 @@ export default function Home() {
         <Header />
       </header>
       <section className={style.section__one}>
-        <AboutSEction />
+        <AboutSection />
       </section>
       <section className={style.section__two}>
         <SectionOne />
