@@ -92,6 +92,7 @@
       flex-direction: column;
       align-items: center;
       gap: 20px;
+      padding: 0;
      & h3{
        margin: 0;
        font-family: Gilroy;

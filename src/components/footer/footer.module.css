@@ -150,4 +150,7 @@
     flex-direction: column-reverse;
     gap: 12px;
   }
+  .error_message {
+    margin-left: 174px;
+  }
 }
