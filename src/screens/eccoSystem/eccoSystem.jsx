@@ -5,7 +5,6 @@ import style from "./eccoSystem.module.css";
 import brandIcon from "../../assets/images/Balancer.png";
 import brandIcon2 from "../../assets/images/Balancer2.png";
 import brandIcon3 from "../../assets/images/Balancer3.png";
-import brandIcon4 from "../../assets/images/pdficon.png";
 import informationImage from "../../assets/images/informationImage.png";
 import eccoImage from "../../assets/images/ECCOimage.png";
 import bookSaved from "../../assets/images/booksaved.png";
@@ -17,26 +16,28 @@ import Image5 from "../../assets/images/image-in-text/5.png";
 
 const data = [
   {
+    type: "brands",
     name: "Brand Name",
     desc: "Brand Description",
     icon: brandIcon,
   },
   {
+    type: "brands",
     name: "Brand Name",
     desc: "Brand Description",
     icon: brandIcon3,
   },
   {
+    type: "brands",
     name: "Brand Name",
     desc: "Brand Description",
     icon: brandIcon2,
   },
   {
+    type: "brands",
     name: "Brand Name",
     desc: "Brand Description",
     icon: brandIcon,
-    file: "PDF File",
-    fileIcon: brandIcon4,
   },
 ];
 export default function EccoSystem() {
@@ -44,15 +45,15 @@ export default function EccoSystem() {
     <div className={style.main}>
       <div className="container">
         <header>
-          <div className="menu">
+          <div className={style.menu}>
             <Navbar />
           </div>
           <div className={style.content}>
             <div className={style.text}>
               <h1>ECCOsystem</h1>
               <p>
-                Choose ECCO certified brands for unmatched quality, backed by
-                science, and trusted for safety.
+                Choose ECCO certified brands for unmatched <br />
+                quality, backed by science, and trusted for safety.
               </p>
             </div>
             <div className={style.buttons}>
@@ -92,14 +93,14 @@ export default function EccoSystem() {
             <div className={style.textWithImg}>
               <span>
                 Cultivators
-                <img src={Image1}  />
+                <img src={Image1} />
                 ,Consumers
                 <img src={Image2} />
                 ,Retailers
               </span>
               <span>
                 Food safety experts
-                <img src={Image3}/>
+                <img src={Image3} />
                 ,Doctors,Brands
               </span>
               <span>
@@ -108,8 +109,8 @@ export default function EccoSystem() {
               </span>
               <span>
                 Help shape
-                <img src={Image5} /> ECCO’s mission and
-                discover how you can make a meaningful impact today
+                <img src={Image5} /> ECCO’s mission and discover how you can
+                make a meaningful impact today
               </span>
             </div>
             <div className={style.inviteText}>

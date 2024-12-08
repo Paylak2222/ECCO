@@ -131,6 +131,7 @@
   align-items: flex-start;
 }
 .mobileDropdownTwo {
+  font-family: "Gilroy";
   position: absolute;
   width: 140px;
   height: 110px;
@@ -201,13 +202,21 @@
       border: none;
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 12px;
       align-items: center;
       padding: 0;
       font-size: 16px;
       font-weight: 500;
       width: 100%;
-      
+      & div {
+        font-family: Gilroy;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21.6px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
     }
     & .donateButton {
       background-color: none;

@@ -50,7 +50,7 @@ export default function Pagination({ title, data }) {
       </div>
       <div className={style.pagination}>
         {currentItems.map((item, index) => {
-          return item.type === "resources" ? (
+          return item.type === "resources" || item.type === "brands" ? (
             <PaginationBlock
               key={index}
               name={item.name}

@@ -1,9 +1,11 @@
 header {
   border-bottom: 1px solid #0000000d;
 }
+.menu {
+  margin-top: 10px;
+}
 .content {
   margin: 100px 0 0 0;
-  width: 380px;
   text-align: start;
 }
 .text {
@@ -29,20 +31,20 @@ header {
 .buttons {
   margin-bottom: 48px;
   & button {
-    padding: 12px 24px 12px 24px;
+    padding: 12.2px 24.2px 12.2px 24.2px;
     gap: 8px;
     border-radius: 32px;
     font-family: Gilroy;
-    font-weight: 500;
+    font-weight: 700;
     border: none;
     color: #3a3d40;
     background-color: #f9f9f9;
     transition-duration: 0.3s;
-
+    font-size: 16px;
+    line-height: 21.6px;
     &:hover {
       color: #f5e514;
       background-color: #0e4a26;
-      transform: scale(1.1);
       cursor: pointer;
     }
   }
@@ -118,18 +120,18 @@ header {
 }
 .textWithImg {
   font-size: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-family: Gilroy;
-    width: 80%;
-    & img{
-      width: 76px;
-      height: 46px;
-    }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Gilroy;
+  width: 80%;
+  & img {
+    width: 76px;
+    height: 46px;
+  }
 }
-.content__retailers{
+.content__retailers {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,45 +167,52 @@ footer {
       cursor: pointer;
       opacity: 0.8;
     }
-    &:active{
-      background-color: #0E381F;
+    &:active {
+      background-color: #0e381f;
     }
   }
 }
 
-.inviteText{
+.inviteText {
   font-size: 16px;
   width: 28%;
   font-family: Gilroy;
 }
 
 @media (max-width: 560px) {
-  .information{
+  .text {
+    color: #3a3d40;
+    & h1 {
+      font-size: 32px;
+      line-height: 33.6px;
+    }
+  }
+  .information {
     flex-direction: column;
   }
-  .information__image{
+  .information__image {
     width: 100%;
   }
-  .information__image > img:first-child{
+  .information__image > img:first-child {
     width: 100%;
     height: 100%;
   }
-  .information__text{
+  .information__text {
     padding: 0;
-    & h3{
+    & h3 {
       font-size: 32px;
     }
   }
   .textWithImg {
     width: 100%;
-    font-size: 16px ;
+    font-size: 16px;
     font-family: Gilroy;
-    & img{
+    & img {
       width: 47px;
       height: 30px;
     }
   }
-  .inviteText{
+  .inviteText {
     width: 100%;
   }
 }
