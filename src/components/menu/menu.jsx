@@ -134,7 +134,9 @@ const Menu = () => {
         </li>
       </ul>
       <div className={styles.logo}>
-        <LogoEcco />
+        <Link to="/">
+          <LogoEcco />
+        </Link>
       </div>
       <div
         className={`${styles.burger} ${isBurgerOpen ? styles.close : ""}`}
@@ -149,7 +151,9 @@ const Menu = () => {
           }`}
         >
           <li>
-            <button className={`${styles.button}`}>About Us</button>
+            <Link to="/explore">
+              <button className={`${styles.button}`}>About Us</button>
+            </Link>
           </li>
           <li
             className={`${styles.dropdown} ${styles.button} ${
@@ -238,7 +242,9 @@ const Menu = () => {
           </li>
 
           <li>
-            <button className={`${styles.button}`}>Education Hub</button>
+            <Link to="/system">
+              <button className={`${styles.button}`}>Education Hub</button>
+            </Link>
           </li>
           <li className={styles.donateButton}>
             <button type="button">Donate</button>
