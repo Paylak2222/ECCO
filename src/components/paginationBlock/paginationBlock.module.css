@@ -1,5 +1,4 @@
 .page__block {
-  width: 429px;
   padding: 16px 16px 24px 16px;
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -15,6 +14,9 @@
   background-color: #fff;
   height: 304px;
   border-radius: 8px;
+  & img {
+    width: 100%;
+  }
 }
 .block__name {
   padding-top: 24px;
