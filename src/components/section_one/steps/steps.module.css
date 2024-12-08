@@ -25,6 +25,19 @@
   width: 123px;
   height: 44px;
   margin: 12px;
+  border-radius: 32px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  & span{
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16.8px;
+    color:#3A3D40;
+  }
 }
 
 .stepText {

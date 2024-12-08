@@ -1,4 +1,5 @@
 import booksaved from "../../assets/images/booksaved.png"
+import screen from "../../assets/images/scren.png"
 import style from "./educationSection.module.css"
 
 export default function EducationSection() {
@@ -19,7 +20,7 @@ export default function EducationSection() {
                  <button>More Info</button>
                </div>
                <div className={style.img__div}>
-                
+                 <img src={screen} width="100%" />
                </div>
             </div>
           </section>

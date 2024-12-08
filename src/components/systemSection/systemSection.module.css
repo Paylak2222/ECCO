@@ -63,13 +63,11 @@
 .block__btn {
   text-align: left;
   & button {
+    width: 130px;
     font-family: Gilroy;
     font-size: 16px;
     font-weight: 600;
     line-height: 21.6px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     top: 429px;
     left: 24px;
     padding: 12px 20px 12px 20px;
@@ -149,10 +147,11 @@ sub{
 @media (max-width: 560px) {
   .system__section{
     flex-direction: column;
-    gap: 20px;
+    gap: 14px;
   }
   .slider{
     width: 100%;
     height: auto;
+    gap: 10px;
   }
 }
