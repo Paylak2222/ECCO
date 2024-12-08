@@ -11,3 +11,10 @@
 .item:hover{
     background-color: #E45223;
 }
+
+@media (max-width: 560px) {
+    .item{
+        width: 170px;
+        height: 171px;
+    }
+}

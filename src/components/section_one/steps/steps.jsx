@@ -13,42 +13,49 @@ const Steps = () => {
   const steps = [
     {
       title: "Preliminary Enrollment",
+      name:"Step 1",
       description:
         "Brands submit a form to determine their initial and monthly dues for ECCO certification, which covers product assessments and marketing support within the ECCO-System.",
       image: Step,
     },
     {
       title: "Initial Screening",
+      name:"Step 2",
       description:
         "Brands undergo an initial screening process to evaluate eligibility for certification.",
       image: Step1,
     },
     {
       title: "Testing & Evaluation",
+      name:"Step 3",
       description:
         "Products are tested and evaluated for safety, quality, and environmental standards.",
       image: Step2,
     },
     {
         title: "Evaluation",
+        name:"Step 4",
         description:
           "Products are tested and evaluated for safety, quality, and environmental standards.",
         image: Step3,
       },
       {
         title: "Testing ",
+        name:"Step 5",
         description:
           "Products are tested and evaluated for safety, quality, and environmental standards.",
         image: Step4,
       },
       {
         title: "Testing & Evaluation",
+        name:"Step 6",
         description:
           "Products are tested and evaluated for safety, quality, and environmental standards.",
         image: Step5,
       },
       {
         title: "Testing & Evaluation",
+        name:"Step 7",
         description:
           "Products are tested and evaluated for safety, quality, and environmental standards.",
         image: Step6,
@@ -64,7 +71,11 @@ const Steps = () => {
       {steps.map((step, index) => (
          <div key={index} className={styles.stepBlock}>
             <div className={styles.stepBg} onClick={() => handleStepClick(index)}>
-              <img src={step.image} alt={step.title} className={styles.stepNumber} />
+              {/* <img src={step.image} alt={step.title} className={styles.stepNumber} /> */}
+              <div className={styles.stepNumber}>
+                <img src={step.image}/>
+                <span>{step.name}</span>
+              </div>
               <p className={styles.stepText}>{step.title}</p>
               {activeStep === index && ( 
                 <div className={styles.stepDescription}>

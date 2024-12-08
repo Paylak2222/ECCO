@@ -73,7 +73,7 @@
   align-items: start;
   justify-content: flex-start;
   margin-top: 20px;
-  width: 50%;
+  /* width: 50%; */
   gap: 16px;
 }
 .row {

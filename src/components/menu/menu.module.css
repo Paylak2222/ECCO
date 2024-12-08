@@ -193,6 +193,7 @@
     & .button {
       font-size: 20px;
       font-weight: 600;
+      font-family: Gilroy;
     }
     & .mobileDropdownTwo {
       position: static;
@@ -206,6 +207,7 @@
       font-size: 16px;
       font-weight: 500;
       width: 100%;
+      
     }
     & .donateButton {
       background-color: none;
@@ -214,7 +216,7 @@
     }
     & .donateButton button {
       font-family: Gilroy;
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 600;
       line-height: 21.6px;
       text-align: left;
@@ -268,6 +270,7 @@
     font-weight: bold;
     cursor: pointer;
     color: #f5e514;
+    
   }
   .mobileMenuToggle {
     display: block;

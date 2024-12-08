@@ -37,6 +37,7 @@
 
 @media (max-width: 560px) {
 .questionItem{
-   padding: 17px 4px;
+   padding: 17px 20px;
+   width: 90%;
 }    
 }
