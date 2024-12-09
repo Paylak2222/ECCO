@@ -25,9 +25,6 @@ export default function EducationSection() {
               More Info
             </button>
           </div>
-          {/* <div className={style.img__div}>
-            <img src={screen} width="100%" />
-          </div> */}
         </div>
       </section>
     </div>

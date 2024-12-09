@@ -78,7 +78,9 @@ export default function Home() {
         </div>
       </section>
       <section className={style.section__five}>
-        <QuestionSection />
+        <div className="container">
+          <QuestionSection />
+        </div>
       </section>
       <section className={style.section__six}>
         <SystemSection />
