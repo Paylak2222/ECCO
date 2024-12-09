@@ -1,8 +1,6 @@
 .main {
   height: 1024px;
-  background-color: aqua;
   background-image: url("../../assets/images/header.png");
-  background-position: center;
   background-size: cover;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
