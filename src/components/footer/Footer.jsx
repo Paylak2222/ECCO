@@ -64,39 +64,46 @@ export default function Footer() {
               <ul>
                 <li className={style.head}>Navigation</li>
                 <li>About</li>
-                <div className={style.row}>
-                  <li>Resources</li>
-                  <div className={style.icon}>
-                    <img src={arrow} alt="arrow" onClick={res_click} />
+                <li>
+                  <div className={style.row}>
+                    Resources
+                    <div className={style.icon}>
+                      <img src={arrow} alt="arrow" onClick={res_click} />
+                    </div>
                   </div>
-                </div>
+                </li>
                 {resourcesList && (
-                  <ul>
-                    <li>Standarts</li>
-                    <li>Manual</li>
-                    <li>Brand Intake Form</li>
-                  </ul>
+                  <li>
+                    <ul>
+                      <li>Standarts</li>
+                      <li>Manual</li>
+                      <li>Brand Intake Form</li>
+                    </ul>
+                  </li>
                 )}
-                <div className={style.row}>
-                  <li>ECCOsystem</li>
-                  <div className={style.icon}>
-                    <img src={arrow} alt="arrow" onClick={ecco_click} />
+                <li>
+                  <div className={style.row}>
+                    ECCOsystem
+                    <div className={style.icon}>
+                      <img src={arrow} alt="arrow" onClick={ecco_click} />
+                    </div>
                   </div>
-                </div>
+                </li>
                 {showEccosystemList && (
-                  <div>
+                  <li><div>
                     <ul>
                       <li>Brands</li>
                       <li>Retailers</li>
                       <li>Labs</li>
                     </ul>
                   </div>
+                  </li>
                 )}
                 <li>Education Hub</li>
                 <li>Donate</li>
               </ul>
             </div>
-            <div className={style.bio}>
+            {/* <div className={style.bio}>
               <ul>
                 <li className={style.head}>Other</li>
                 <li>ECCOsystem</li>
@@ -105,34 +112,42 @@ export default function Footer() {
                 <li>Resources</li>
                 <li>Resources</li>
               </ul>
-            </div>
+            </div> */}
             <div className={style.bio}>
               <ul>
                 <li className={style.head}>Social</li>
-                <div className={style.row}>
-                  <div className={style.icon}>
-                    <img src={facebook} alt="Facebook" />
+                <li>
+                  <div className={style.row}>
+                    <div className={style.icon}>
+                      <img src={facebook} alt="Facebook" />
+                    </div>
+                    Facebook
                   </div>
-                  <li>Facebook</li>
-                </div>
-                <div className={style.row}>
-                  <div className={style.icon}>
-                    <img src={twitter} alt="Twitter" />
+                </li>
+                <li>
+                  <div className={style.row}>
+                    <div className={style.icon}>
+                      <img src={twitter} alt="Twitter" />
+                    </div>
+                    Twitter
                   </div>
-                  <li>Twitter</li>
-                </div>
-                <div className={style.row}>
-                  <div className={style.icon}>
-                    <img src={link} alt="LinkedIn" />
+                </li>
+                <li>
+                  <div className={style.row}>
+                    <div className={style.icon}>
+                      <img src={link} alt="LinkedIn" />
+                    </div>
+                    Linkedln
                   </div>
-                  <li>Linkedln</li>
-                </div>
-                <div className={style.row}>
-                  <div className={style.icon}>
-                    <img src={instagram} alt="Instagram" />
+                </li>
+                <li>
+                  <div className={style.row}>
+                    <div className={style.icon}>
+                      <img src={instagram} alt="Instagram" />
+                    </div>
+                    Instagram
                   </div>
-                  <li>Instagram</li>
-                </div>
+                </li>
               </ul>
             </div>
           </div>

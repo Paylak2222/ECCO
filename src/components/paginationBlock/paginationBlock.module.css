@@ -3,6 +3,8 @@
   background-color: #f9f9f9;
   border-radius: 10px;
   align-self: stretch;
+  flex:1;
+  max-width: 430px;
 }
 .content {
   padding-left: 8px;
@@ -15,7 +17,7 @@
   height: 304px;
   border-radius: 8px;
   & img {
-    width: 100%;
+    width: 60%;
   }
 }
 .block__name {

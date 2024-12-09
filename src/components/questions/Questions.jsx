@@ -40,7 +40,7 @@ const questions = [
 
 const QuestionSection = () => {
   return (
-    <div className="container">
+    <div >
       <div className={style.wrapper}>
         <span className={style.title}>Questions you may have</span>
         <div className={style.block__btn}>

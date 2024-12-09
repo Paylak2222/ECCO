@@ -61,21 +61,31 @@
 
 .info {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex: 1;
   max-width: 650px;
 }
 
 .bio {
   width: 176px;
+  & ul {
+    margin-top: 0px;
+    padding-left: 0px;
+  }
   & ul li {
+
     list-style-type: none;
-    padding: 12px;
+    margin: 0px 0px 24px 0;
     font-family: Gilroy;
     font-size: 16px;
     font-weight: 500;
     line-height: 21.6px;
     text-align: left;
+    padding-left: 0px;
+
+  }
+  & ul li ul li {
+      margin: 12px 0;
   }
 }
 
@@ -85,6 +95,7 @@
 .row {
   display: flex;
   align-items: center;
+  gap:8px
 }
 .icon {
   width: 18px;
@@ -129,7 +140,7 @@
     flex-direction: column;
   }
   .info {
-    flex-wrap: wrap;
+    margin-top: 32px;
   }
 
   .inp_div {
