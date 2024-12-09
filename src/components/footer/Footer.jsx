@@ -117,14 +117,14 @@ export default function Footer() {
             <div className={style.bio}>
               <ul>
                 <li className={style.head}>Social</li>
-                <li>
+                {/* <li>
                   <div className={style.row}>
                     <div className={style.icon}>
                       <img src={facebook} alt="Facebook" />
                     </div>
                     Facebook
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <div
                     className={style.row}

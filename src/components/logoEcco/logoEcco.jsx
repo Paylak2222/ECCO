@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./logoEcco.module.css";
-import EccoLogo from "../../assets/images/eccoLogo.png";
+import EccoLogo from "../../assets/images/Logo.svg";
 
 const LogoEcco = () => {
   return (

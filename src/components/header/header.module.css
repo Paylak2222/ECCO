@@ -25,7 +25,7 @@
 .logo {
   width: 59px;
   height: 93px;
-  background-image: url("../../assets/images/Seal.png");
+  background-image: url("../../assets/images/Seal.svg");
   background-size: cover;
   background-position: center;
 }
@@ -74,7 +74,7 @@
     flex-direction: column-reverse;
     height: calc(100vh - 80px);
   }
-  .heading{
+  .heading {
     width: 100%;
     height: fit-content;
     background-color: #ffffff;
@@ -82,19 +82,19 @@
     padding: 0;
     overflow: hidden;
   }
-  .logo{
+  .logo {
     width: 52px;
     height: 82px;
     margin-top: 16px;
     margin-left: 16px;
   }
-  .head{
-   margin-left: 16px;
-   height: auto;
-   & span {
+  .head {
+    margin-left: 16px;
+    height: auto;
+    & span {
       font-size: 40px;
       line-height: 42px;
-   }
+    }
   }
   .desc {
     margin-left: 16px;
@@ -105,7 +105,7 @@
       line-height: 27px;
     }
   }
-  .items{
+  .items {
     width: 543px;
     height: auto;
     justify-content: center;
