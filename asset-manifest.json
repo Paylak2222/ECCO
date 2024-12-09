@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ECCO/static/css/main.01120944.css",
-    "main.js": "/ECCO/static/js/main.acd2f50a.js",
+    "main.css": "/ECCO/static/css/main.1f8a026d.css",
+    "main.js": "/ECCO/static/js/main.9f759d8f.js",
     "static/js/453.71af8548.chunk.js": "/ECCO/static/js/453.71af8548.chunk.js",
     "static/media/header.png": "/ECCO/static/media/header.bf1d169078ed01bc4105.png",
     "static/media/informationImage.png": "/ECCO/static/media/informationImage.290eedd1374d4e662be4.png",
     "static/media/Rectangle.png": "/ECCO/static/media/Rectangle.64377b6990b4b4e41e27.png",
     "static/media/Rectangle2.png": "/ECCO/static/media/Rectangle2.672862dbb7c7b142b6c5.png",
     "static/media/Rectangle3.png": "/ECCO/static/media/Rectangle3.46c6a90b9183107a5b20.png",
+    "static/media/scren.png": "/ECCO/static/media/scren.7c960de2ffe5bb09fa4c.png",
     "static/media/pict_2.png": "/ECCO/static/media/pict_2.9c6fc3bb1975773271e8.png",
     "static/media/pict_4.png": "/ECCO/static/media/pict_4.914faecefccc5e8629ba.png",
     "static/media/1.png": "/ECCO/static/media/1.ea4bc7491885b2c01ac2.png",
     "static/media/pict_3.png": "/ECCO/static/media/pict_3.ae14a518e36a98243a7a.png",
-    "static/media/screen.png": "/ECCO/static/media/screen.a51400663dad0576cd60.png",
     "static/media/4.png": "/ECCO/static/media/4.065fe600bef7945e2b40.png",
     "static/media/pict_1.png": "/ECCO/static/media/pict_1.277071940f24de8d9dca.png",
     "static/media/3.png": "/ECCO/static/media/3.3f830c7908cc73f2c8e5.png",
@@ -74,12 +74,12 @@
     "static/media/arrow-down.svg": "/ECCO/static/media/arrow-down.ade826130c63fe277b2ed6f1f056a9fd.svg",
     "static/media/burger-icon.svg": "/ECCO/static/media/burger-icon.de3e7e530af2082038f487fe7e2cdee1.svg",
     "static/media/x-close.svg": "/ECCO/static/media/x-close.773e6d03a7385c8214dea0cd1a0ccdd3.svg",
-    "main.01120944.css.map": "/ECCO/static/css/main.01120944.css.map",
-    "main.acd2f50a.js.map": "/ECCO/static/js/main.acd2f50a.js.map",
+    "main.1f8a026d.css.map": "/ECCO/static/css/main.1f8a026d.css.map",
+    "main.9f759d8f.js.map": "/ECCO/static/js/main.9f759d8f.js.map",
     "453.71af8548.chunk.js.map": "/ECCO/static/js/453.71af8548.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01120944.css",
-    "static/js/main.acd2f50a.js"
+    "static/css/main.1f8a026d.css",
+    "static/js/main.9f759d8f.js"
   ]
 }
