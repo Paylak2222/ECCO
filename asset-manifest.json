@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ECCO/static/css/main.1f8a026d.css",
-    "main.js": "/ECCO/static/js/main.9f759d8f.js",
+    "main.css": "/ECCO/static/css/main.0474215c.css",
+    "main.js": "/ECCO/static/js/main.3001020e.js",
     "static/js/453.71af8548.chunk.js": "/ECCO/static/js/453.71af8548.chunk.js",
     "static/media/header.png": "/ECCO/static/media/header.bf1d169078ed01bc4105.png",
     "static/media/informationImage.png": "/ECCO/static/media/informationImage.290eedd1374d4e662be4.png",
@@ -65,21 +65,21 @@
     "static/media/Team5.png": "/ECCO/static/media/Team5.3b30f6bec34f4ae498cf.png",
     "static/media/Ecco.png": "/ECCO/static/media/Ecco.7db8d9d34266328af2c2.png",
     "static/media/Team3.png": "/ECCO/static/media/Team3.6e16bdeb3c0b978ecf44.png",
-    "static/media/pdf-svgrepo.png": "/ECCO/static/media/pdf-svgrepo.1f914ddd6821c9cd16fe.png",
+    "static/media/pdf-svgrepo.png": "/ECCO/static/media/pdf-svgrepo.151468f19cdb76d04411.png",
     "static/media/pdf-svgrepo2.png": "/ECCO/static/media/pdf-svgrepo2.1f914ddd6821c9cd16fe.png",
     "static/media/pdf-svgrepo3.png": "/ECCO/static/media/pdf-svgrepo3.b4c8f3e4fa4e2e1bda93.png",
-    "static/media/like.svg": "/ECCO/static/media/like.fdd213b9759a0bfa863341a12a556ac3.svg",
+    "static/media/like.svg": "/ECCO/static/media/like.44fe919c4d17b05f7d0de14b94ce6664.svg",
     "index.html": "/ECCO/index.html",
-    "static/media/red-flag.svg": "/ECCO/static/media/red-flag.eac4b8668e4be9df2714fa47e4d67804.svg",
+    "static/media/red-flag.svg": "/ECCO/static/media/red-flag.9a48085b1daa095c76cb938efbcfc9dc.svg",
     "static/media/arrow-down.svg": "/ECCO/static/media/arrow-down.ade826130c63fe277b2ed6f1f056a9fd.svg",
     "static/media/burger-icon.svg": "/ECCO/static/media/burger-icon.de3e7e530af2082038f487fe7e2cdee1.svg",
     "static/media/x-close.svg": "/ECCO/static/media/x-close.773e6d03a7385c8214dea0cd1a0ccdd3.svg",
-    "main.1f8a026d.css.map": "/ECCO/static/css/main.1f8a026d.css.map",
-    "main.9f759d8f.js.map": "/ECCO/static/js/main.9f759d8f.js.map",
+    "main.0474215c.css.map": "/ECCO/static/css/main.0474215c.css.map",
+    "main.3001020e.js.map": "/ECCO/static/js/main.3001020e.js.map",
     "453.71af8548.chunk.js.map": "/ECCO/static/js/453.71af8548.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f8a026d.css",
-    "static/js/main.9f759d8f.js"
+    "static/css/main.0474215c.css",
+    "static/js/main.3001020e.js"
   ]
 }
