@@ -90,13 +90,14 @@ export default function Footer() {
                   </div>
                 </li>
                 {showEccosystemList && (
-                  <li><div>
-                    <ul>
-                      <li>Brands</li>
-                      <li>Retailers</li>
-                      <li>Labs</li>
-                    </ul>
-                  </div>
+                  <li>
+                    <div>
+                      <ul>
+                        <li>Brands</li>
+                        <li>Retailers</li>
+                        <li>Labs</li>
+                      </ul>
+                    </div>
                   </li>
                 )}
                 <li>Education Hub</li>
@@ -125,7 +126,12 @@ export default function Footer() {
                   </div>
                 </li>
                 <li>
-                  <div className={style.row}>
+                  <div
+                    className={style.row}
+                    onClick={() =>
+                      window.open("https://x.com/ECCOCert", "_blank")
+                    }
+                  >
                     <div className={style.icon}>
                       <img src={twitter} alt="Twitter" />
                     </div>
@@ -133,7 +139,15 @@ export default function Footer() {
                   </div>
                 </li>
                 <li>
-                  <div className={style.row}>
+                  <div
+                    className={style.row}
+                    onClick={() =>
+                      window.open(
+                        "https://www.linkedin.com/company/ecco-certified/",
+                        "_blank"
+                      )
+                    }
+                  >
                     <div className={style.icon}>
                       <img src={link} alt="LinkedIn" />
                     </div>
@@ -141,7 +155,15 @@ export default function Footer() {
                   </div>
                 </li>
                 <li>
-                  <div className={style.row}>
+                  <div
+                    className={style.row}
+                    onClick={() =>
+                      window.open(
+                        "https://www.instagram.com/ecco_cert/",
+                        "_blank"
+                      )
+                    }
+                  >
                     <div className={style.icon}>
                       <img src={instagram} alt="Instagram" />
                     </div>
