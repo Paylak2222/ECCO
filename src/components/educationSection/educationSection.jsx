@@ -17,13 +17,13 @@ export default function EducationSection() {
             shares recent news and key takeaways.
           </span>
           <div className={style.block__btn}>
-            <button
+            <div
               onClick={() =>
                 window.open("https://ecco-cannabis.notion.site/", "_blank")
               }
             >
               More Info
-            </button>
+            </div>
           </div>
         </div>
       </section>

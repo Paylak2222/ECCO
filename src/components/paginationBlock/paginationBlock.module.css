@@ -70,7 +70,7 @@
 }
 .block__btn {
   text-align: left;
-  & button {
+  & div {
     font-family: Gilroy;
     font-size: 16px;
     font-weight: 600;
