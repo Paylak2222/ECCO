@@ -21,35 +21,39 @@ import Footer from "../../components/footer/Footer";
 const data = [
   {
     type: "resources",
-    name: "Standards",
+    name: "Overview",
     desc: "ECCO Technical Certification Standards - Pesticides Panel 2025",
     icon: brandIcon1,
     file: "PDF File",
     fileIcon: brandFil1,
+    link: "https://docs.google.com/document/d/1Npz7QUUjnStWYBT0hvBe8d2ysTrwir4eKzv1hSg2HJM/edit?usp=sharing",
   },
   {
     type: "resources",
-    name: "Manual",
+    name: "Deck",
     desc: "Coming soon...",
     icon: brandIcon2,
     file: "PDF File",
     fileIcon: brandFil2,
+    link: "https://www.canva.com/design/DAGRnI6g0s4/3WQEbUP2G91zH4I5nlw9_A/view",
   },
   {
     type: "resources",
-    name: "Brand Intake Form",
+    name: "Certification Standards",
     desc: "Thank you for your interest in becoming ECCO Certified!",
     icon: brandIcon3,
     file: "PDF File",
     fileIcon: brandFil3,
+    link: "https://docs.google.com/document/d/1R_3YVtNdOrHnUAM2DCO7e_SZTigSD8cn/edit?usp=sharing&ouid=113439082160299838218&rtpof=true&sd=true",
   },
   {
     type: "resources",
-    name: "Brand Intake Form",
+    name: "Certification Manual",
     desc: "Coming soon...",
     icon: brandIcon4,
     file: "PDF File",
     fileIcon: brandFil4,
+    link: "https://docs.google.com/document/d/19rtNl41csjsiHQkTDRxm0IO7Cx5SVnqnM4n5E9nt0WI/edit?usp=sharing",
   },
 ];
 

@@ -1,5 +1,12 @@
 import style from "./paginationBlock.module.css";
-export default function PaginationBlock({ icon, name, desc, file, fileIcon }) {
+export default function PaginationBlock({
+  icon,
+  name,
+  desc,
+  file,
+  fileIcon,
+  link,
+}) {
   return (
     <div className={style.page__block}>
       <div className={style.block__image}>
@@ -21,7 +28,9 @@ export default function PaginationBlock({ icon, name, desc, file, fileIcon }) {
           <span>{desc}</span>
         </div>
         <div className={style.block__btn}>
-          <button>Visit Website</button>
+          <button onClick={() => window.open(link, "_blank")}>
+            Visit Website
+          </button>
         </div>
       </div>
     </div>

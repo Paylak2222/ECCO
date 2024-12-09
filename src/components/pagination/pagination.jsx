@@ -58,6 +58,7 @@ export default function Pagination({ title, data }) {
               icon={item.icon}
               file={item.file}
               fileIcon={item.fileIcon}
+              link={item.link}
             />
           ) : item.type === "matters" ? (
             <Matters
