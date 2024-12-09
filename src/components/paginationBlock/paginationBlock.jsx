@@ -28,7 +28,9 @@ export default function PaginationBlock({
           <span>{desc}</span>
         </div>
         <div className={style.block__btn}>
-          <div onClick={() => window.open(link, "_blank")}>Visit Website</div>
+          <button onClick={() => window.open(link, "_blank")}>
+            Visit Website
+          </button>
         </div>
       </div>
     </div>
