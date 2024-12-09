@@ -61,7 +61,6 @@
   flex-wrap: wrap;
   gap: 12px;
   width: 405px;
-  height: 150px;
   border-radius: 10px;
 }
 
@@ -83,6 +82,7 @@
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  padding-right: 50px;
 }
 
 .cards_right {
@@ -98,7 +98,6 @@
   gap: 12px;
   margin-left: 36px;
   width: 405px;
-  height: 150px;
   border-radius: 10px;
 }
 .eccoImage {
@@ -106,7 +105,15 @@
   height: 110px;
   margin-left: 36px;
 }
-
+.items {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
 .items_container {
   margin: 24px;
   display: flex;
@@ -128,62 +135,60 @@
   height: 20px;
 }
 
-.numbers{
-    display: none;
+.numbers {
+  display: none;
 }
 
-@media screen and (max-width: 560px){
-    .title{
-        font-size: 32px;
-        line-height: 33.6px;
+@media screen and (max-width: 560px) {
+  .title {
+    font-size: 32px;
+    line-height: 33.6px;
+  }
+  .description {
+    font-size: 20px;
+    line-height: 21.6px;
+  }
+  .cards {
+    width: 100%;
+    height: auto;
+  }
+  .cards_left {
+    width: 100%;
+    height: auto;
+  }
+  .cards_right {
+    width: 100%;
+    height: auto;
+  }
+  .cards_heading {
+    width: auto;
+  }
+  .numbers {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+  }
+  .left__arrow,
+  .right__arrow {
+    width: 42px;
+    height: 42px;
+    border-radius: 4px;
+    background-position: center;
+    background-color: #f9f9f9;
+    background-repeat: no-repeat;
+    &:hover {
+      cursor: pointer;
     }
-    .description{
-        font-size: 20px;
-        line-height: 21.6px;
-    }
-    .cards{
-        width: 100%;
-        height: auto;
-        
-    }
-    .cards_left{
-        width: 100%;
-        height: auto;
-    }
-    .cards_right{
-        width: 100%;
-        height: auto;
-    }
-    .cards_heading{
-        width: auto;
-        
-    }
-    .numbers {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 16px;
-      }
-      .left__arrow,
-      .right__arrow {
-        width: 42px;
-        height: 42px;
-        border-radius: 4px;
-        background-position: center;
-        background-color: #f9f9f9;
-        background-repeat: no-repeat;
-        &:hover {
-          cursor: pointer;
-        }
-      }
-      .left__arrow {
-        background-image: url("../../assets/images/leftarrow.png");
-      }
-      .right__arrow {
-        background-image: url("../../assets/images/rightarrow.png");
-      }
-      .disabled {
-        opacity: 0.5;
-        pointer-events: none;
-      }
+  }
+  .left__arrow {
+    background-image: url("../../assets/images/leftarrow.png");
+  }
+  .right__arrow {
+    background-image: url("../../assets/images/rightarrow.png");
+  }
+  .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
 }
