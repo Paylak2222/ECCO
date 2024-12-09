@@ -1,121 +1,118 @@
 .sectionsContainer {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+}
+.sections {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 122px;
+}
+.sectionOne {
+  width: 450px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.sectionTwo {
+  width: 484px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.icon {
+  padding: 12px 24px 12px 24px;
+  gap: 8px;
+  border-radius: 32px;
+  background: #f9f9f9;
+  display: flex;
+  align-items: center;
+  & h2 {
+    margin: 0;
   }
-  .sections{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 122px;
+}
+
+.title {
+  font-family: Gilroy;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 37.8px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.descriptionOne {
+  width: 449px;
+  height: 112px;
+  top: 180px;
+  left: 60px;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.descriptionTwo {
+  width: 483px;
+  height: 112px;
+  top: 180px;
+  left: 60px;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.stepSection {
+  width: 581px;
+}
+@media (max-width: 560px) {
+  .sectionsContainer {
+    width: 100%;
   }
   .sectionOne {
-    width: 450px;
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
-
+    width: 100%;
   }
-  .sectionTwo{
-    width: 484px;
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: wrap;
+  .sections {
+    margin-top: 40px;
   }
-  
   .icon {
-    padding: 12px 24px 12px 24px;
-    gap: 8px;
-    border-radius: 32px;
-    background: #F9F9F9;
-    display: flex;
-    align-items: center;
-    & h2 {
-      margin:0
-    }
+    width: auto;
+    height: auto;
+    padding: 12.5px 24px;
   }
-  
   .title {
-    font-family: Gilroy;
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 37.8px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
+    font-size: 24px;
+    line-height: 25.2px;
+    margin: 0;
   }
-  
   .descriptionOne {
-    width: 449px;
-    height: 112px;
-    top: 180px;
-    left: 60px;
-    font-family: Gilroy;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    line-height: 21.6px;
+    margin-top: 16px;
+    margin-bottom: 32px;
   }
-  .descriptionTwo{
-    width: 483px;
-    height: 112px;
-    top: 180px;
-    left: 60px;
-    font-family: Gilroy;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+  .descriptionTwo {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    line-height: 21.6px;
+    margin-top: 16px;
+    margin-bottom: 32px;
   }
-  .stepSection{
-    width: 581px;
-
+  .sectionTwo {
+    width: 100%;
   }
-  @media (max-width: 560px) {
-    .sectionsContainer{
-      width: 100%;
-    }
-    .sectionOne{
-      width: 100%;
-    
-    }
-    .icon{
-      width: auto;
-      height: auto;
-      padding: 12.5px 24px;
-    }
-    .title{
-      font-size: 24px;
-      line-height: 25.2px;
-      margin: 0;
-    }
-    .descriptionOne{
-      width: 100%;
-      height: auto;
-      font-size: 16px;
-      line-height: 21.6px;
-      margin-top: 16px;
-      margin-bottom: 32px;
-    }
-    .descriptionTwo{
-      width: 100%;
-      height: auto;
-      font-size: 16px;
-      line-height: 21.6px;
-      margin-top: 16px;
-      margin-bottom: 32px;
-    }
-    .sectionTwo{
-      width: 100%;
-    }
-    .stepsSection{
-      width: 100%;
-    }
+  .stepsSection {
+    width: 100%;
   }
+}

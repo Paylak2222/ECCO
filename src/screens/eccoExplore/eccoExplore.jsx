@@ -1,27 +1,27 @@
-import React from 'react'
-import Navbar from '../../components/navbar/navbar'
-import SectionOne from '../../components/section_one/section_one'
-import EccoTeam from '../../components/eccoTeam/eccoTeam'
-import Pagination from '../../components/pagination/pagination'
-import styles from "./eccoExplore.module.css"
-import brandIcon1 from "../../assets/images/image-Resources-pdf/pdf-svgrepo.png"
-import brandIcon2 from "../../assets/images/image-Resources-pdf/pdf-svgrepo2.png"
-import brandIcon3 from "../../assets/images/image-Resources-pdf/pdf-svgrepo3.png"
-import brandIcon4 from "../../assets/images/image-Resources-pdf/pdf-svgrepo3.png"
-import brandFil1 from "../../assets/images/image-Resources-pdf/pdf.png"
-import brandFil2 from "../../assets/images/image-Resources-pdf/pdf.png"
-import brandFil3 from "../../assets/images/image-Resources-pdf/googleForm.png"
-import brandFil4 from "../../assets/images/image-Resources-pdf/googleForm.png"
+import React from "react";
+import Navbar from "../../components/navbar/navbar";
+import SectionOne from "../../components/section_one/section_one";
+import EccoTeam from "../../components/eccoTeam/eccoTeam";
+import Pagination from "../../components/pagination/pagination";
+import styles from "./eccoExplore.module.css";
+import brandIcon1 from "../../assets/images/image-Resources-pdf/pdf-svgrepo.png";
+import brandIcon2 from "../../assets/images/image-Resources-pdf/pdf-svgrepo2.png";
+import brandIcon3 from "../../assets/images/image-Resources-pdf/pdf-svgrepo3.png";
+import brandIcon4 from "../../assets/images/image-Resources-pdf/pdf-svgrepo3.png";
+import brandFil1 from "../../assets/images/image-Resources-pdf/pdf.png";
+import brandFil2 from "../../assets/images/image-Resources-pdf/pdf.png";
+import brandFil3 from "../../assets/images/image-Resources-pdf/googleForm.png";
+import brandFil4 from "../../assets/images/image-Resources-pdf/googleForm.png";
 import mattersImg1 from "../../assets/images/Rectangle.png";
 import mattersImg2 from "../../assets/images/Rectangle2.png";
 import mattersImg3 from "../../assets/images/Rectangle3.png";
 import heartIcon from "../../assets/images/heart.png";
 import bookSavedIcon from "../../assets/images/book-saved.png";
 import starsIcon from "../../assets/images/stars.png";
-import ChooseUs from '../../components/chooseUS/choosUs'
-import QuestionSection from '../../components/questions/Questions'
-import EducationSection from '../../components/educationSection/educationSection'
-import Footer from '../../components/footer/Footer'
+import ChooseUs from "../../components/chooseUS/choosUs";
+import QuestionSection from "../../components/questions/Questions";
+import EducationSection from "../../components/educationSection/educationSection";
+import Footer from "../../components/footer/Footer";
 export default function EccoExplore() {
   const resourcesData = [
     {
@@ -106,16 +106,16 @@ export default function EccoExplore() {
       <div className={styles.ecoTeam}>
         <EccoTeam />
       </div>
-        <Pagination title={"Resources"} data={resourcesData} />
-        <ChooseUs />
-        <Pagination title={"Why it matters"} data={mattersData} />
-        <section className={styles.section__six}>
-            <EducationSection/>
-        </section>
-        <section className={styles.section__five}>
-        <QuestionSection/>
-        </section>
-        <footer>
+      <Pagination title={"Resources"} data={resourcesData} />
+      <ChooseUs />
+      <section className={styles.section__six}>
+        <EducationSection />
+      </section>
+      <Pagination title={"Why it matters"} data={mattersData} />
+      <section className={styles.section__five}>
+        <QuestionSection />
+      </section>
+      <footer>
         <Footer />
       </footer>
     </div>

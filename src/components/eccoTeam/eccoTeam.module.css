@@ -1,129 +1,128 @@
-.ourTeamBlock{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 200px;
+.ourTeamBlock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 200px;
 }
-.ourTeam{
-    width: 312px;
-    height: 268px;
+.ourTeam {
+  width: 312px;
+  height: 268px;
 }
 .ourTitle {
-    font-family: Gilroy;
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 52.5px;
-    text-align: left;
-    margin: 0;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #3A3D40;
+  font-family: Gilroy;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 52.5px;
+  text-align: left;
+  margin: 0;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3a3d40;
 }
-.ourText{
-    font-family: Gilroy;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 21.6px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #3A3D40;
+.ourText {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #3a3d40;
 }
-.teamContainer{
-    display: flex;
-    flex-wrap: wrap;
-    width: 780px;
-    /* height: 554px; */
-    top: 100px;
-    left: 600px;
-    gap: 16px;
+.teamContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 780px;
+  top: 100px;
+  left: 600px;
+  gap: 16px;
 }
 .teamImg {
-    width: 183px;
-    height: 184px;
-    border-radius: 500px;
+  width: 183px;
+  height: 184px;
+  border-radius: 500px;
 }
-.teamMember{
-    & h3{
+.teamMember {
+  & h3 {
     font-family: Gilroy;
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
-    margin:24px 0 0 0;
-    color: #3A3D40;
- }
-    & p{
-    margin:4px 0 0 0;
+    margin: 24px 0 0 0;
+    color: #3a3d40;
+  }
+  & p {
+    margin: 4px 0 0 0;
     font-family: Gilroy;
     font-size: 16px;
     font-weight: 500;
     line-height: 21.6px;
     text-align: center;
-    color: #3A3D4066;
-    }
+    color: #3a3d4066;
+  }
 }
-.teamButton{
-    width: 183px;
-    height: 184px;
-    border-radius: 500px;
-    background: #0E4A26;
-    font-family: Gilroy;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 21.6px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #F5E514;
-    text-align: center;
+.teamButton {
+  width: 183px;
+  height: 184px;
+  border-radius: 500px;
+  background: #0e4a26;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f5e514;
+  text-align: center;
 }
 @media (max-width: 560px) {
-    .ourTeamBlock{
-        margin-top: 100px;
+  .ourTeamBlock {
+    margin-top: 80px;
+  }
+  .ourTeam {
+    width: 100%;
+    height: auto;
+  }
+  .ourTitle {
+    font-size: 32px;
+    line-height: 33.5px;
+  }
+  .ourText {
+    font-size: 16px;
+    line-height: 21.6px;
+  }
+  .teamContainer {
+    width: 100%;
+  }
+  .teamImg {
+    width: 114px;
+    height: 114px;
+  }
+  .teamButton {
+    width: 183px;
+    height: 184px;
+  }
+  .teamMember {
+    width: 46%;
+    & h3 {
+      font-size: 16px;
+      line-height: 21.6px;
+      color: #3a3d40;
     }
-    .ourTeam{
-        width: 100%;
-        height: auto;
+    & p {
+      font-size: 12px;
+      line-height: 16.2px;
+      color: #3a3d4066;
     }
-    .ourTitle {
-        font-size: 32px;
-        line-height: 33.5px;
-    }
-    .ourText{
-        font-size: 16px;
-        line-height: 21.6px;
-    }
-    .teamContainer{
-        width: 100%;
-    }
-    .teamImg {
-        width: 114px;
-        height: 114px;
-    }
-    .teamButton{
-        width: 183px;
-        height: 184px;
-    }
-    .teamMember{
-        width: 46%;
-        & h3{
-            font-size: 16px;
-            line-height: 21.6px;
-            color: #3A3D40;
-        }
-        & p{
-            font-size: 12px;
-            line-height: 16.2px;
-            color: #3A3D4066;
-        }
-    }
-    .teamButton{
-        width: 114px;
-        height: 114px;
-        font-size: 14px;
-        line-height: 16.4px;
-        border: 0;
-        padding: 25px;
-    }
+  }
+  .teamButton {
+    width: 114px;
+    height: 114px;
+    font-size: 14px;
+    line-height: 16.4px;
+    border: 0;
+    padding: 25px;
+  }
 }
