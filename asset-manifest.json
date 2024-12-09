@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ECCO/static/css/main.0474215c.css",
-    "main.js": "/ECCO/static/js/main.7892efc3.js",
+    "main.css": "/ECCO/static/css/main.cccf8abf.css",
+    "main.js": "/ECCO/static/js/main.416988bf.js",
     "static/js/453.71af8548.chunk.js": "/ECCO/static/js/453.71af8548.chunk.js",
     "static/media/header.png": "/ECCO/static/media/header.bf1d169078ed01bc4105.png",
     "static/media/informationImage.png": "/ECCO/static/media/informationImage.290eedd1374d4e662be4.png",
@@ -74,12 +74,12 @@
     "static/media/arrow-down.svg": "/ECCO/static/media/arrow-down.ade826130c63fe277b2ed6f1f056a9fd.svg",
     "static/media/burger-icon.svg": "/ECCO/static/media/burger-icon.de3e7e530af2082038f487fe7e2cdee1.svg",
     "static/media/x-close.svg": "/ECCO/static/media/x-close.773e6d03a7385c8214dea0cd1a0ccdd3.svg",
-    "main.0474215c.css.map": "/ECCO/static/css/main.0474215c.css.map",
-    "main.7892efc3.js.map": "/ECCO/static/js/main.7892efc3.js.map",
+    "main.cccf8abf.css.map": "/ECCO/static/css/main.cccf8abf.css.map",
+    "main.416988bf.js.map": "/ECCO/static/js/main.416988bf.js.map",
     "453.71af8548.chunk.js.map": "/ECCO/static/js/453.71af8548.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0474215c.css",
-    "static/js/main.7892efc3.js"
+    "static/css/main.cccf8abf.css",
+    "static/js/main.416988bf.js"
   ]
 }
