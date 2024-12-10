@@ -1,0 +1,8 @@
+.profilImg__labs {
+  width: 100%;
+  & img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+  }
+}

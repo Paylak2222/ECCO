@@ -22,6 +22,7 @@ import ChooseUs from "../../components/chooseUS/choosUs";
 import QuestionSection from "../../components/questions/Questions";
 import EducationSection from "../../components/educationSection/educationSection";
 import Footer from "../../components/footer/Footer";
+
 export default function EccoExplore() {
   const resourcesData = [
     {

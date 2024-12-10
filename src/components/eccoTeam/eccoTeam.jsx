@@ -1,50 +1,51 @@
 import React from "react";
 import styles from "./eccoTeam.module.css";
-import Team1 from "../../assets/images/image-Team-Our/Team1.png";
-import Team2 from "../../assets/images/image-Team-Our/Team2.png";
-import Team3 from "../../assets/images/image-Team-Our/Team3.png";
-import Team4 from "../../assets/images/image-Team-Our/Team4.png";
-import Team5 from "../../assets/images/image-Team-Our/Team5.png";
-import Team6 from "../../assets/images/image-Team-Our/Team6.png";
-import Team7 from "../../assets/images/image-Team-Our/Team7.png";
+import Team1 from "../../assets/images/peoples/Sylvia.png";
+import Team2 from "../../assets/images/peoples/Ford Smith Headshot.jpg";
+import Team3 from "../../assets/images/peoples/Thomas_Martin Headshot .JPG";
+import Team4 from "../../assets/images/peoples/Trent Overholt Headshot.png";
+import Team5 from "../../assets/images/peoples/elliot.jpeg";
+import Team6 from "../../assets/images/peoples/Anresco.png";
+import Team7 from "../../assets/images/peoples/Infinite Labs.png";
+
 import { Link } from "react-router-dom";
 
 export default function EccoTeam() {
   const eccoTeam = [
     {
       name: "Sylvia Rzepniewski",
-      position: "Minds",
+      position: "Interim Executive Director",
       image: Team1,
     },
     {
-      name: "Jen Seo",
-      position: "Nabis",
+      name: "Ford Smith",
+      position: "ECCO Founding Member",
       image: Team2,
     },
     {
-      name: "Ford Smith",
-      position: "Ultranative",
+      name: "Thomas Martin",
+      position: "ECCO Founding Member",
       image: Team3,
     },
     {
-      name: "Elliot Lewis",
-      position: "Catalyst",
+      name: "Trent Overholt",
+      position: "ECCO Founding Member",
       image: Team4,
     },
     {
-      name: "Thomas Martin",
-      position: "Raw Garden",
+      name: "Elliot Lewis",
+      position: "ECCO Founding Member",
       image: Team5,
       file: "Team",
     },
     {
-      name: "Trent Overholt",
-      position: "Noble Pacific",
+      name: "Anresco Laboratories",
+      position: "LAB 1",
       image: Team6,
     },
     {
-      name: "Jared Ficker",
-      position: "Cal Strategies",
+      name: "Infinite Chemical Analysis Labs",
+      position: "LAB 2",
       image: Team7,
     },
   ];

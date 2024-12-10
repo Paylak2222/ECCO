@@ -36,7 +36,7 @@
   width: 780px;
   top: 100px;
   left: 600px;
-  gap: 16px;
+  gap: 13px;
 }
 .teamImg {
   width: 183px;
@@ -44,6 +44,7 @@
   border-radius: 500px;
 }
 .teamMember {
+  width: 23%;
   & h3 {
     font-family: Gilroy;
     font-size: 20px;
@@ -60,6 +61,10 @@
     line-height: 21.6px;
     text-align: center;
     color: #3a3d4066;
+  }
+  img {
+    width: 100%;
+    object-fit: contain;
   }
 }
 .teamButton {

@@ -1,5 +1,5 @@
 import style from "../teams/teams.module.css";
-
+import styleLabs from "./labs.module.css";
 export default function Labs({ data }) {
   return (
     <>
@@ -9,9 +9,9 @@ export default function Labs({ data }) {
       <div className={style.teams__flex}>
         {data.map((item, index) => (
           <div key={index} className={style.teams__block}>
-            <div className={style.profilImg}>
+            <div className={styleLabs.profilImg__labs}>
               <img
-                src={item.profilImg || "/default-image.png"}
+                src={item.profilLogo || "/default-image.png"}
                 alt={`${item.name || "No Name"}'s profile`}
               />
             </div>
@@ -20,16 +20,6 @@ export default function Labs({ data }) {
             </div>
             <div className={style.profil__desc}>
               <p>{item.desc || "No Description"}</p>
-            </div>
-            <div className={style.profil__logo}>
-              {item.profilLogo ? (
-                <img
-                  src={item.profilLogo}
-                  alt={`${item.name || "No Name"}'s logo`}
-                />
-              ) : (
-                <span>No Logo</span>
-              )}
             </div>
           </div>
         ))}
