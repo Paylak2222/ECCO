@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ECCO/static/css/main.108da8d1.css",
-    "main.js": "/ECCO/static/js/main.a670706a.js",
+    "main.css": "/ECCO/static/css/main.ef6d2f7c.css",
+    "main.js": "/ECCO/static/js/main.2ccc38b6.js",
     "static/js/453.3f302d46.chunk.js": "/ECCO/static/js/453.3f302d46.chunk.js",
     "static/media/KevinBrooks-Headshot.png": "/ECCO/static/media/KevinBrooks-Headshot.dae53ac87ce91f81d749.png",
     "static/media/Jen Seo.png": "/ECCO/static/media/Jen Seo.2ff5662f5ed8a30f1c78.png",
@@ -51,19 +51,14 @@
     "static/media/Gilroy-HeavyItalic.woff": "/ECCO/static/media/Gilroy-HeavyItalic.69a4089aa47289d5c1d0.woff",
     "static/media/Gilroy-ExtraBold.woff": "/ECCO/static/media/Gilroy-ExtraBold.9e97d4d15bd60297cd15.woff",
     "static/media/Thomas_Martin Headshot .JPG": "/ECCO/static/media/Thomas_Martin Headshot .93cf6506412feaf80c37.JPG",
-    "static/media/Team7.png": "/ECCO/static/media/Team7.c0afef1821802b52ffba.png",
     "static/media/Gilroy-Heavy.woff": "/ECCO/static/media/Gilroy-Heavy.a033bcd6806c93714853.woff",
-    "static/media/Team6.png": "/ECCO/static/media/Team6.32182747fe556e018b34.png",
-    "static/media/Team1.png": "/ECCO/static/media/Team1.0fe96eb762b42cbbb03a.png",
     "static/media/Gilroy-UltraLightItalic.woff2": "/ECCO/static/media/Gilroy-UltraLightItalic.ae45814ec013ae1afa9e.woff2",
     "static/media/Gilroy-MediumItalic.woff2": "/ECCO/static/media/Gilroy-MediumItalic.b05d7fc938c80978cb19.woff2",
     "static/media/Gilroy-LightItalic.woff2": "/ECCO/static/media/Gilroy-LightItalic.3df5e201250391643417.woff2",
     "static/media/Gilroy-RegularItalic.woff2": "/ECCO/static/media/Gilroy-RegularItalic.e398d2e1f6240c7584d8.woff2",
     "static/media/Gilroy-ThinItalic.woff2": "/ECCO/static/media/Gilroy-ThinItalic.83269e445f3b58d209c3.woff2",
-    "static/media/Team4.png": "/ECCO/static/media/Team4.0c2160447aca53f18c28.png",
     "static/media/Gilroy-SemiBoldItalic.woff2": "/ECCO/static/media/Gilroy-SemiBoldItalic.2e06e7148d17ae17cdd8.woff2",
     "static/media/Gilroy-BoldItalic.woff2": "/ECCO/static/media/Gilroy-BoldItalic.2bde2d94d3df30ba9c88.woff2",
-    "static/media/Team2.png": "/ECCO/static/media/Team2.5329ed178c338f09559d.png",
     "static/media/Gilroy-UltraLight.woff2": "/ECCO/static/media/Gilroy-UltraLight.c44b9ea7a7085e9e5bd6.woff2",
     "static/media/Gilroy-Medium.woff2": "/ECCO/static/media/Gilroy-Medium.7477f2bf882f9950a6ab.woff2",
     "static/media/Gilroy-Light.woff2": "/ECCO/static/media/Gilroy-Light.a7a8716b9bbfd8e1ff08.woff2",
@@ -80,11 +75,9 @@
     "static/media/CannaCraft.png": "/ECCO/static/media/CannaCraft.410936d3dbc2772fbad3.png",
     "static/media/ECCO.png": "/ECCO/static/media/ECCO.0661725f3d4508cf37bb.png",
     "static/media/Gilroy-Heavy.woff2": "/ECCO/static/media/Gilroy-Heavy.102b0db2f67030cb17b9.woff2",
-    "static/media/Team5.png": "/ECCO/static/media/Team5.3b30f6bec34f4ae498cf.png",
     "static/media/Ecco.png": "/ECCO/static/media/Ecco.7db8d9d34266328af2c2.png",
     "static/media/Jetty-Logo-Black-_1_.png": "/ECCO/static/media/Jetty-Logo-Black-_1_.cff140c31d1c2f5b0aa7.png",
     "static/media/Noble Pacific.png": "/ECCO/static/media/Noble Pacific.1c2228f1958aa1b40427.png",
-    "static/media/Team3.png": "/ECCO/static/media/Team3.6e16bdeb3c0b978ecf44.png",
     "static/media/Catalyst.jpg": "/ECCO/static/media/Catalyst.6b15e5d63efb2ad4b81a.jpg",
     "static/media/Infinite Labs.png": "/ECCO/static/media/Infinite Labs.a3babc57ce6109b187eb.png",
     "static/media/Seal.svg": "/ECCO/static/media/Seal.cc126f70a487565e6e86.svg",
@@ -99,12 +92,12 @@
     "static/media/arrow-down.svg": "/ECCO/static/media/arrow-down.ade826130c63fe277b2ed6f1f056a9fd.svg",
     "static/media/burger-icon.svg": "/ECCO/static/media/burger-icon.de3e7e530af2082038f487fe7e2cdee1.svg",
     "static/media/x-close.svg": "/ECCO/static/media/x-close.773e6d03a7385c8214dea0cd1a0ccdd3.svg",
-    "main.108da8d1.css.map": "/ECCO/static/css/main.108da8d1.css.map",
-    "main.a670706a.js.map": "/ECCO/static/js/main.a670706a.js.map",
+    "main.ef6d2f7c.css.map": "/ECCO/static/css/main.ef6d2f7c.css.map",
+    "main.2ccc38b6.js.map": "/ECCO/static/js/main.2ccc38b6.js.map",
     "453.3f302d46.chunk.js.map": "/ECCO/static/js/453.3f302d46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.108da8d1.css",
-    "static/js/main.a670706a.js"
+    "static/css/main.ef6d2f7c.css",
+    "static/js/main.2ccc38b6.js"
   ]
 }
