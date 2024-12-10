@@ -76,6 +76,8 @@
   text-decoration-skip-ink: none;
   color: #f5e514;
   text-align: center;
+  border: none;
+  cursor: pointer;
 }
 @media (max-width: 560px) {
   .ourTeamBlock {

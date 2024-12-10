@@ -16,20 +16,20 @@ export default function PaginationBlock({
         <div className={style.block__name}>
           <span>{name}</span>
         </div>
-        {file && (
+        {/* {file && (
           <div className={style.block__file}>
             <button>
               <img src={fileIcon} alt="PDF icon" />
               <span>{file}</span>
             </button>
           </div>
-        )}
-        <div className={style.block__desc}>
+        )} */}
+        {/* <div className={style.block__desc}>
           <span>{desc}</span>
-        </div>
+        </div> */}
         <div className={style.block__btn}>
           <button onClick={() => window.open(link, "_blank")}>
-            Visit Website
+            Click to View
           </button>
         </div>
       </div>

@@ -130,7 +130,7 @@ const Menu = () => {
           </Link>
         </li>
         <li className={styles.donateButton}>
-          <button type="button">Donate</button>
+          <button type="button">Apply as a Brand</button>
         </li>
       </ul>
       <div className={styles.logo}>
@@ -247,7 +247,7 @@ const Menu = () => {
             </Link>
           </li>
           <li className={styles.donateButton}>
-            <button type="button">Donate</button>
+            <button type="button">Apply as a Brand</button>
           </li>
           <li className={styles.social}>
             <div className={styles.icon}>

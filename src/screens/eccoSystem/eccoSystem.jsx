@@ -13,34 +13,11 @@ import Image2 from "../../assets/images/image-in-text/2.png";
 import Image3 from "../../assets/images/image-in-text/3.png";
 import Image4 from "../../assets/images/image-in-text/4.png";
 import Image5 from "../../assets/images/image-in-text/5.png";
+import TeamsAndLabs from "../../components/teamsAndLabs/teamsAndLabs";
+import { useState } from "react";
 
-const data = [
-  {
-    type: "brands",
-    name: "Brand Name",
-    desc: "Brand Description",
-    icon: brandIcon,
-  },
-  {
-    type: "brands",
-    name: "Brand Name",
-    desc: "Brand Description",
-    icon: brandIcon3,
-  },
-  {
-    type: "brands",
-    name: "Brand Name",
-    desc: "Brand Description",
-    icon: brandIcon2,
-  },
-  {
-    type: "brands",
-    name: "Brand Name",
-    desc: "Brand Description",
-    icon: brandIcon,
-  },
-];
 export default function EccoSystem() {
+  const [type, setType] = useState("teams");
   return (
     <div className={style.main}>
       <div className="container">
@@ -57,16 +34,13 @@ export default function EccoSystem() {
               </p>
             </div>
             <div className={style.buttons}>
-              <button>Brands</button>
-              <button>Retailers</button>
-              <button>Labs</button>
+              <button onClick={() => setType("teams")}>Teams</button>
+              <button onClick={() => setType("labs")}>Labs</button>
             </div>
           </div>
         </header>
         <section class={style.section__one}>
-          <div className={style.pagination__block}>
-            <Pagination title={"Brands"} data={data} />
-          </div>
+          <TeamsAndLabs type={type} />
         </section>
         <section class={style.section__two}>
           <div className={style.information}>

@@ -21,7 +21,7 @@ import Footer from "../../components/footer/Footer";
 const data = [
   {
     type: "resources",
-    name: "Standards",
+    name: "Overview",
     desc: "ECCO Technical Certification Standards - Pesticides Panel 2025",
     icon: brandIcon1,
     file: "ECCO Overview",
@@ -39,7 +39,7 @@ const data = [
   },
   {
     type: "resources",
-    name: "Brand Intake Form",
+    name: "Certification Standards",
     desc: "Thank you for your interest in becoming ECCO Certified!",
     icon: brandIcon3,
     file: "ECCO Brand",
@@ -48,7 +48,7 @@ const data = [
   },
   {
     type: "resources",
-    name: "Certification Manual",
+    name: "Deck",
     desc: "Coming soon...",
     icon: brandIcon4,
     file: "PDF File",

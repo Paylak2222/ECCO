@@ -120,6 +120,13 @@
 .copy_span {
   display: flex;
   gap: 48px;
+
+  & a {
+    text-decoration: none;
+  }
+  & span {
+    cursor: pointer;
+  }
 }
 .error_message {
   color: #e58080;

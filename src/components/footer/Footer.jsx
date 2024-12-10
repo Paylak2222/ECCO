@@ -5,6 +5,7 @@ import twitter from "../../assets/images/twitter.png";
 import link from "../../assets/images/link.png";
 import facebook from "../../assets/images/Facebook.png";
 import arrow from "../../assets/images/arrow-right.png";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   const [showEccosystemList, setShowEccosystemList] = useState(false);
@@ -101,7 +102,7 @@ export default function Footer() {
                   </li>
                 )}
                 <li>Education Hub</li>
-                <li>Donate</li>
+                <li>Apply as a Brand</li>
               </ul>
             </div>
             {/* <div className={style.bio}>
@@ -178,8 +179,12 @@ export default function Footer() {
       <div className={style.copyright}>
         <span>@2024 ECCO. All rights reserved</span>
         <div className={style.copy_span}>
-          <span>Privacy policy</span>
-          <span>Terms & Conditions</span>
+          <Link to="/privacy-policy">
+            <span>Privacy policy</span>
+          </Link>
+          <Link to="/terms">
+            <span>Terms & Conditions</span>
+          </Link>
         </div>
       </div>
     </div>
