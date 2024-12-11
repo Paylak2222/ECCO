@@ -76,9 +76,10 @@ export default function Footer() {
                 {resourcesList && (
                   <li>
                     <ul>
-                      <li>Standarts</li>
-                      <li>Manual</li>
-                      <li>Brand Intake Form</li>
+                    <li><a target="_blank" href="https://docs.google.com/document/d/1Npz7QUUjnStWYBT0hvBe8d2ysTrwir4eKzv1hSg2HJM/edit?usp=sharing">Overview</a></li>
+                <li><a target="_blank" href="https://www.canva.com/design/DAGRnI6g0s4/3WQEbUP2G91zH4I5nlw9_A/view">Manual</a></li>
+                <li><a target="_blank" href="https://docs.google.com/document/d/1R_3YVtNdOrHnUAM2DCO7e_SZTigSD8cn/edit?usp=sharing&ouid=113439082160299838218&rtpof=true&sd=true">Standards</a></li>
+                <li><a target="_blank" href="https://docs.google.com/document/d/19rtNl41csjsiHQkTDRxm0IO7Cx5SVnqnM4n5E9nt0WI/edit?usp=sharing" >Deck</a></li>
                     </ul>
                   </li>
                 )}

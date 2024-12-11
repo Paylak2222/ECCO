@@ -36,70 +36,71 @@ import style from "./teamsAndLabs.module.css";
 
 const dataTeams = [
   {
-    type: "teams",
+    type: "Founders",
     profilImg: Sylvia,
     name: "Sylvia Rzepniewski",
     desc: "Interim Executive Director",
     profilLogo: logoSylvia,
   },
   {
-    type: "teams",
-    profilImg: Ford,
-    name: "Ford Smith",
-    desc: "ECCO Founding Member",
-    profilLogo: logoFord,
-  },
-  {
-    type: "teams",
-    profilImg: Thomas,
-    name: "Thomas Martin",
-    desc: "ECCO Founding Member",
-    profilLogo: logoThomas,
-  },
-  {
-    type: "teams",
-    profilImg: Trent,
-    name: "Trent Overholt",
-    desc: "ECCO Founding Member",
-    profilLogo: logoTrent,
-  },
-  {
-    type: "teams",
+    type: "Founders",
     profilImg: Elliot,
     name: "Elliot Lewis",
     desc: "ECCO Founding Member",
     profilLogo: logoElliot,
   },
   {
-    type: "teams",
+    type: "Founders",
+    profilImg: Ford,
+    name: "Ford Smith",
+    desc: "ECCO Founding Member",
+    profilLogo: logoFord,
+  },
+  {
+    type: "Founders",
+    profilImg: Thomas,
+    name: "Thomas Martin",
+    desc: "ECCO Founding Member",
+    profilLogo: logoThomas,
+  },
+  {
+    type: "Founders",
+    profilImg: Trent,
+    name: "Trent Overholt",
+    desc: "ECCO Founding Member",
+    profilLogo: logoTrent,
+  },
+  
+  {
+    type: "Technical Advisers",
     profilImg: Overholt,
     name: "Trent Overholt",
     desc: "ECCO Technical Advisory Committee",
     profilLogo: logoOverholt,
   },
   {
-    type: "teams",
+    type: "Technical Advisers",
     profilImg: Kevin,
     name: "Kevin Brooks",
     desc: "ECCO Technical Advisory Committee",
     profilLogo: logoKevin,
   },
   {
-    type: "teams",
+    type: "Technical Advisers",
     profilImg: Zach,
     name: "Zach Eisenberg",
     desc: "ECCO Technical Advisory Committee",
     profilLogo: logoZach,
   },
   {
-    type: "teams",
+    type: "Technical Advisers",
     profilImg: Josh,
     name: "Josh Swider",
     desc: "ECCO Technical Advisory Committee",
     profilLogo: logoJosh,
   },
   {
-    type: "teams",
+    type: "Technical Advisers",
     profilImg: Gary,
     name: "Gary Vandenberghe",
     desc: "ECCO Technical Advisory Committee",
@@ -107,35 +108,35 @@ const dataTeams = [
   },
 
   {
-    type: "teams",
+    type: "Technical Advisers",
     profilImg: Kroeger,
     name: "Kevin Kroeger",
     desc: "ECCO Technical Advisory Committee",
     profilLogo: logoKroeger,
   },
   {
-    type: "teams",
+    type: "Advisory Board",
     profilImg: Seo,
     name: "Jen Seo",
     desc: "ECCO Advisory Board",
     profilLogo: logoSeo,
   },
   {
-    type: "teams",
+    type: "Advisory Board",
     profilImg: Jorgensen,
     name: "Brooks Jorgensen",
     desc: "ECCO Advisory Board",
     profilLogo: logoJorgensen,
   },
   {
-    type: "teams",
+    type: "Advisory Board",
     profilImg: Fussell,
     name: "Ned Fussell",
     desc: "ECCO Advisory Board",
     profilLogo: logoFussell,
   },
   {
-    type: "teams",
+    type: "Advisory Board",
     profilImg: Nate,
     name: "Nate Ferguson",
     desc: "ECCO Advisory Board",
@@ -162,11 +163,8 @@ const dataLabs = [
 export default function TeamsAndLabs({ type }) {
   return (
     <>
-      {type === "teams" ? (
-        <Teams data={dataTeams} />
-      ) : type === "labs" ? (
-        <Labs data={dataLabs} />
-      ) : null}
+      <Teams data={dataTeams} />
+      <Labs data={dataLabs} />
     </>
   );
 }

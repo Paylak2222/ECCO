@@ -114,10 +114,10 @@
 
 .mobileDropdown {
   position: absolute;
-  width: 125px;
+  width: 150px;
   height: 110px;
   top: 55px;
-  left: -12px;
+  left: -20px;
   padding: 16px 24px 16px 24px;
   list-style: none;
   display: flex;

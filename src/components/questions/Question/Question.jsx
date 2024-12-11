@@ -13,7 +13,7 @@ const Question = ({ question, answer }) => {
             <div className={style.questionTitle} onClick={toggleAccordion}>
                 <span>{question}</span> <img src={ArrowDown} alt="arrow-down" className={isOpen ? style.arrowDown : style.arrowUp} />
             </div>
-            {isOpen && <div className={style.questionAnswer}>{answer}</div>}
+            {isOpen && <div className={style.questionAnswer}  dangerouslySetInnerHTML={{__html:answer}} ></div>}
         </div>
     );
 };

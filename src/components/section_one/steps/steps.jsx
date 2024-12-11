@@ -12,52 +12,52 @@ const Steps = () => {
   const [activeStep, setActiveStep] = useState(null);
   const steps = [
     {
-      title: "PRELIMINARY ENROLLMENT",
+      title: "Preliminary Enrollment",
       name: "Step 1",
       description:
-        "Brands submit a form to determine their initial and monthly dues for ECCO certification, which covers product assessments and marketing support withi the ECCO-System.",
+        "Brands submit a form to determine their initial and monthly dues for ECCO certification, which covers product assessments and marketing support within the ECCOsystem.",
       image: Step,
     },
     {
-      title: "INITIAL SCREENING",
+      title: "Initial Screening",
       name: "Step 2",
       description:
-        "ECCO schedules a call with the brand to discuss the evaluation start date, onboarding fee, and monthly dues and desired products for certification.",
+        "ECCO schedules a call with the brand to discuss the evaluation start date, onboarding fee, monthly dues, and desired products for certification.",
       image: Step1,
     },
     {
-      title: "TESTING & EVALUATION*",
+      title: "Testing & Evaluation*",
       name: "Step 3",
       description:
         "ECCO purchases two product SKUs from a retailer, sends them for third-party lab testing, and reviews results within seven days to determine if they meet certification standards.",
       image: Step2,
     },
     {
-      title: "COMPLIANCE MONITORING",
+      title: "Certification Decision",
       name: "Step 4",
       description:
-        "Two products are tested monthly to ensure continued compliance, with brands undergoing an annual review and re-certification 30 days before their certification expires.",
+        "Products that pass are awarded the ECCO certification, allowing the brand to use the ECCO mark for 12 months on those products, with certification results published online for transparency.",
       image: Step3,
     },
     {
-      title: "CERTIFICATION MARK ",
+      title: "Certification Mark",
       name: "Step 5",
       description:
-        "Certified brands can display the ECCO mark on products that meet Certification Standards, with the results published and integrated into ECCO’s consumer and retail marketing strategies",
+        "Certified brands can display the ECCO mark on products that meet ECCO Certification Standards and are integrated into ECCO’s consumer and retail education strategies.",
       image: Step4,
     },
     {
-      title: "CERTIFICATION DECISION",
+      title: "Compliance Monitoring",
       name: "Step 6",
       description:
-        "Products that pass are awarded the ECCO Certification, allowing the brand to use the ECCO mark for 12 months, with certification results published online for transparency.",
+        "Each month, ECCO purchases two certified brand products from brick-and-mortar retailers and submits them for third-party lab testing to ensure continued compliance.",
       image: Step5,
     },
     {
-      title: "ANNUAL RE-CERTIFICATION",
+      title: "Annual Re-certification",
       name: "Step 7",
       description:
-        "Brands receive a re-enrollment form 30 days before their certification expires to determine monthly dues for the next 12 months and to issue a new certificate for continued enrollment",
+        "Brands receive a re-enrollment form 30 days before their certification expires to determine monthly dues for the next 12 months and to issue a new certificate for continued enrollment.",
       image: Step6,
     },
   ];

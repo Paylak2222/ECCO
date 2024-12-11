@@ -77,9 +77,10 @@ const Menu = () => {
             </span>
             {isEccoSystemOpen && (
               <ul className={styles.mobileDropdownTwo}>
-                <li>Standards</li>
-                <li>Manual</li>
-                <li>Brand Intake Form</li>
+                <li><a target="_blank" href="https://docs.google.com/document/d/1Npz7QUUjnStWYBT0hvBe8d2ysTrwir4eKzv1hSg2HJM/edit?usp=sharing">Overview</a></li>
+                <li><a target="_blank" href="https://www.canva.com/design/DAGRnI6g0s4/3WQEbUP2G91zH4I5nlw9_A/view">Manual</a></li>
+                <li><a target="_blank" href="https://docs.google.com/document/d/1R_3YVtNdOrHnUAM2DCO7e_SZTigSD8cn/edit?usp=sharing&ouid=113439082160299838218&rtpof=true&sd=true">Standards</a></li>
+                <li><a target="_blank" href="https://docs.google.com/document/d/19rtNl41csjsiHQkTDRxm0IO7Cx5SVnqnM4n5E9nt0WI/edit?usp=sharing" >Deck</a></li>
               </ul>
             )}
           </button>
@@ -92,7 +93,7 @@ const Menu = () => {
               isEccoSystemtowOpen ? styles.active : ""
             }`}
           >
-            ECCOSystem
+            ECCOsystem
             <span
               className={`${styles.arrow} ${
                 isEccoSystemtowOpen ? styles.rotate : ""
@@ -116,8 +117,9 @@ const Menu = () => {
             </span>
             {isEccoSystemtowOpen && (
               <ul className={styles.mobileDropdown}>
-                <li>Brands</li>
-                <li>Retailers</li>
+                <li>Founders</li>
+                <li>Technical Advisers</li>
+                <li>Advisory Board</li>
                 <li>Labs</li>
               </ul>
             )}
@@ -191,9 +193,10 @@ const Menu = () => {
             </button>
             {isEccoSystemOpen && (
               <div className={styles.mobileDropdownTwo}>
-                <div>Standards</div>
-                <div>Manual</div>
-                <div>Brand Intake Form</div>
+                <div><a target="_blank" href="https://docs.google.com/document/d/1Npz7QUUjnStWYBT0hvBe8d2ysTrwir4eKzv1hSg2HJM/edit?usp=sharing">Overview</a></div>
+                <div><a target="_blank" href="https://www.canva.com/design/DAGRnI6g0s4/3WQEbUP2G91zH4I5nlw9_A/view">Manual</a></div>
+                <div><a target="_blank" href="https://docs.google.com/document/d/1R_3YVtNdOrHnUAM2DCO7e_SZTigSD8cn/edit?usp=sharing&ouid=113439082160299838218&rtpof=true&sd=true">Standards</a></div>
+                <div><a target="_blank" href="https://docs.google.com/document/d/19rtNl41csjsiHQkTDRxm0IO7Cx5SVnqnM4n5E9nt0WI/edit?usp=sharing" >Deck</a></div>
               </div>
             )}
           </li>
@@ -209,7 +212,7 @@ const Menu = () => {
                 isEccoSystemtowOpen ? styles.active : ""
               }`}
             >
-              ECCOSystem
+              ECCOsystem
               <span
                 className={`${styles.arrow} ${
                   isEccoSystemtowOpen ? styles.rotate : ""
@@ -233,10 +236,13 @@ const Menu = () => {
               </span>
             </button>
             {isEccoSystemtowOpen && (
-              <div className={styles.mobileDropdownTwo}>
-                <div>Brands</div>
-                <div>Retailers</div>
-                <div>Labs</div>
+              <div className={styles.mobileDropdownTwo} onClick={()=>{
+                window.location.hash = "/system";
+              }}>
+                <div><a>Founders</a></div>
+                <div><a>Technical Advisers</a></div>
+                <div><a>Advisory Board</a></div>
+                <div><a>Labs</a></div>
               </div>
             )}
           </li>

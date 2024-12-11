@@ -34,8 +34,18 @@ export default function EccoSystem() {
               </p>
             </div>
             <div className={style.buttons}>
-              <button onClick={() => setType("teams")}>Teams</button>
-              <button onClick={() => setType("labs")}>Labs</button>
+              <button onClick={() => {
+                window.location.hash = "#Founders";
+              }}>Founders</button>
+              <button onClick={() => {
+                window.location.hash = "#Technical Advisers";
+              }}>Technical Advisers</button>
+              <button onClick={() => {
+                window.location.hash = "#Cultivators";
+              }}>Advisory Board</button>
+              <button onClick={() => {
+                window.location.hash = "#Consumers";
+              }}>Labs</button>              
             </div>
           </div>
         </header>
@@ -62,43 +72,17 @@ export default function EccoSystem() {
         <section className={style.section__three}>
           <div className={style.content__retailers}>
             <div className={style.retailers}>
-              <img src={bookSaved} alt="Book saved" /> <span>Retailers</span>
+              <img src={bookSaved} alt="Book saved" /> <span>ECCOsystem</span>
             </div>
             <div className={style.textWithImg}>
               <span>
-                Cultivators
-                <img src={Image1} />
-                ,Consumers
-                <img src={Image2} />
-                ,Retailers
-              </span>
-              <span>
-                Food safety experts
-                <img src={Image3} />
-                ,Doctors,Brands
-              </span>
-              <span>
-                Public officials
-                <img src={Image4} /> and labs
-              </span>
-              <span>
-                Help shape
-                <img src={Image5} /> ECCO’s mission and discover how you can
-                make a meaningful impact today
+              Cultivators<img src={Image1}/>, consumers<img src={Image2}/>, retailers, food safety experts<img src={Image3}/>, doctors, brands, public officials<img src={Image4}/>, and labs all play a vital role in shaping<img src={Image5}/> ECCO’s mission.<br/> <br/>Join a community dedicated to consumer safety and environmental responsibility, and discover how you can make a meaningful impact today. <br/><br/>Send us your message to get started.
               </span>
             </div>
-            <div className={style.inviteText}>
-              <span>
-                We invite you to join a community dedicated to consumer safety
-                and environmental responsibility
-              </span>
-            </div>
-            <div className={style.textWithImg}>
-              <span>Please send your message to</span>
-            </div>
-            <div className={style.block__btn}>
-              <button>Info@ECCOcert.org</button>
-            </div>
+            
+            <a href="mailto:info@eccocert.org" ><div className={style.block__btn}>
+              <button>info@eccocert.org</button>
+            </div></a>
           </div>
         </section>
         <footer>

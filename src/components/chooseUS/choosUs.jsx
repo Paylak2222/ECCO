@@ -8,11 +8,9 @@ export default function ChooseUs() {
   const dataLike = [
     {
       description:
-        "Tested for 135 harmful pesticides / Passed as non-detectable.",
+        "Tested for 138 harmful contaminans and passed as non-detectable",
       icon: like,
     },
-    { description: "Brands publicly disclosed on ECCO's website", icon: like },
-    { description: "Products contaminant-free", icon: like },
     {
       description:
         "Certification promotes environmentally responsible practices",
@@ -27,14 +25,9 @@ export default function ChooseUs() {
   const dataDislike = [
     {
       description:
-        "Tested for 135 harmful pesticides / Passed as non-detectable.",
+        "Tested for 138 harmful contaminans and passed as non-detectable",
       icon: dislike,
     },
-    {
-      description: "Brands publicly disclosed on ECCO's website",
-      icon: dislike,
-    },
-    { description: "Products contaminant-free", icon: dislike },
     {
       description:
         "Certification promotes environmentally responsible practices",
@@ -75,7 +68,6 @@ export default function ChooseUs() {
     <div>
       <div className={styles.title_container}>
         <span className={styles.title}>Why choose us</span>
-        <span className={styles.description}>Our Standards</span>
       </div>
 
       {mobileView ? (

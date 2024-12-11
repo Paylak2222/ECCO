@@ -11,7 +11,7 @@ const SectionOne = () => {
           <div className={styles.sectionOne}>
             <div className={styles.icon}>
               <img src={redFlag} />
-              <h2 className={styles.title}>The Problem:</h2>
+              <h2 className={styles.title}>The problem:</h2>
             </div>
             <p className={styles.descriptionOne}>
               Consumers are left in the dark about many contaminants found in
@@ -22,7 +22,7 @@ const SectionOne = () => {
           <div className={styles.sectionTwo}>
             <div className={styles.icon}>
               <img src={Like} />
-              <h2 className={styles.title}>A Solution:</h2>
+              <h2 className={styles.title}>A solution:</h2>
             </div>
             <p className={styles.descriptionTwo}>
               ECCO offers independent, third-party testing and certification to

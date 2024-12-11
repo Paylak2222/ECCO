@@ -68,3 +68,9 @@
     object-fit: contain;
   }
 }
+
+@media (max-width: 600px) {
+  .teams__block {
+    width: 100%;
+  }
+}
