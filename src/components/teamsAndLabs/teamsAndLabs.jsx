@@ -1,11 +1,11 @@
 import Labs from "../labs/labs";
 import Teams from "../teams/teams";
-import Sylvia from "../../assets/images/peoples/Sylvia.png";
+import Sylvia from "../../assets/images/peoples/Sylvia.jpg";
 import Ford from "../../assets/images/peoples/Ford Smith Headshot.jpg";
-import Thomas from "../../assets/images/peoples/Thomas_Martin Headshot .JPG";
-import Trent from "../../assets/images/peoples/Trent Overholt Headshot.png";
-import Elliot from "../../assets/images/peoples/elliot.jpeg";
-import Overholt from "../../assets/images/peoples/Trent Overholt Headshot.png";
+import Thomas from "../../assets/images/peoples/Thomas_Martin Headshot .jpg";
+import Trent from "../../assets/images/peoples/Trent Overholt Headshot.jpg";
+import Elliot from "../../assets/images/peoples/elliot.jpg";
+import Overholt from "../../assets/images/peoples/Trent Overholt Headshot.jpg";
 import Kevin from "../../assets/images/peoples/KevinBrooks-Headshot.png";
 import Zach from "../../assets/images/peoples/Zachary Eisenberg Headshot.jpg";
 import Josh from "../../assets/images/peoples/Josh-Swider-Headshot-scaled.jpg";
@@ -41,6 +41,8 @@ const dataTeams = [
     name: "Sylvia Rzepniewski",
     desc: "Interim Executive Director",
     profilLogo: logoSylvia,
+    site: "https://www.eccocert.org/",
+    linkedin:"https://www.linkedin.com/in/sylvia-rzepniewski-17304541/"
   },
   {
     type: "Founders",
@@ -48,6 +50,8 @@ const dataTeams = [
     name: "Elliot Lewis",
     desc: "ECCO Founding Member",
     profilLogo: logoElliot,
+    site:"https://catalyst-cannabis.com/",
+    linkedin:"https://www.linkedin.com/in/elliotlewisceo/"
   },
   {
     type: "Founders",
@@ -55,6 +59,8 @@ const dataTeams = [
     name: "Ford Smith",
     desc: "ECCO Founding Member",
     profilLogo: logoFord,
+    site:"https://www.ultranative.com/",
+    linkedin:"https://www.linkedin.com/in/ford-smith-austin/"
   },
   {
     type: "Founders",
@@ -62,6 +68,8 @@ const dataTeams = [
     name: "Thomas Martin",
     desc: "ECCO Founding Member",
     profilLogo: logoThomas,
+    site:"https://rawgarden.farm/",
+    linkedin:"https://www.linkedin.com/in/thomas-martin-8ab772115/"
   },
   {
     type: "Founders",
@@ -69,6 +77,8 @@ const dataTeams = [
     name: "Trent Overholt",
     desc: "ECCO Founding Member",
     profilLogo: logoTrent,
+    site:"https://www.noble-pacific.com/",
+    linkedin:"https://www.linkedin.com/in/trentoverholtlosangeles/"
   },
   
   {
@@ -77,6 +87,8 @@ const dataTeams = [
     name: "Trent Overholt",
     desc: "ECCO Technical Advisory Committee",
     profilLogo: logoOverholt,
+    site:"https://www.noble-pacific.com/",
+    linkedin:"https://www.linkedin.com/in/trentoverholtlosangeles/"
   },
   {
     type: "Technical Advisers",
@@ -84,6 +96,8 @@ const dataTeams = [
     name: "Kevin Brooks",
     desc: "ECCO Technical Advisory Committee",
     profilLogo: logoKevin,
+    site:"https://conceptionnurseries.com/",
+    linkedin:"https://www.linkedin.com/in/kevinbrookssv/"
   },
   {
     type: "Technical Advisers",
@@ -91,6 +105,8 @@ const dataTeams = [
     name: "Zach Eisenberg",
     desc: "ECCO Technical Advisory Committee",
     profilLogo: logoZach,
+    site:"http://www.anresco.com/",
+    linkedin:"https://www.linkedin.com/in/zachary-eisenberg-78a00639/"
   },
   {
     type: "Technical Advisers",
@@ -98,6 +114,8 @@ const dataTeams = [
     name: "Josh Swider",
     desc: "ECCO Technical Advisory Committee",
     profilLogo: logoJosh,
+    site:"https://infinitecal.com/",
+    linkedin:"https://www.linkedin.com/in/joshua-swider/"
   },
   {
     type: "Technical Advisers",
@@ -105,6 +123,8 @@ const dataTeams = [
     name: "Gary Vandenberghe",
     desc: "ECCO Technical Advisory Committee",
     profilLogo: logoGary,
+    site:"https://leefbrands.com/",
+    linkedin:"https://www.linkedin.com/in/r-gary-vandenberghe-600676140/"
   },
 
   {
@@ -113,6 +133,8 @@ const dataTeams = [
     name: "Kevin Kroeger",
     desc: "ECCO Technical Advisory Committee",
     profilLogo: logoKroeger,
+    site:"https://rawgarden.farm/",
+    linkedin:"https://www.linkedin.com/in/kevin-kroeger-757554a3/"
   },
   {
     type: "Advisory Board",
@@ -120,6 +142,8 @@ const dataTeams = [
     name: "Jen Seo",
     desc: "ECCO Advisory Board",
     profilLogo: logoSeo,
+    site:"https://www.nabis.com/",
+    linkedin:"https://www.linkedin.com/in/jennifer-seo-198694188/"
   },
   {
     type: "Advisory Board",
@@ -127,6 +151,8 @@ const dataTeams = [
     name: "Brooks Jorgensen",
     desc: "ECCO Advisory Board",
     profilLogo: logoJorgensen,
+    site:"https://www.kivasales.com/",
+    linkedin:"https://www.linkedin.com/in/brooks-jorgensen-82a0ba44/"
   },
   {
     type: "Advisory Board",
@@ -134,6 +160,8 @@ const dataTeams = [
     name: "Ned Fussell",
     desc: "ECCO Advisory Board",
     profilLogo: logoFussell,
+    site:"https://cannacraft.com/",
+    linkedin:"https://www.linkedin.com/in/ned-fussell-66714a133/"
   },
   {
     type: "Advisory Board",
@@ -141,6 +169,8 @@ const dataTeams = [
     name: "Nate Ferguson",
     desc: "ECCO Advisory Board",
     profilLogo: logoNate,
+    site:"http://www.jettyextracts.com/",
+    linkedin:"https://www.linkedin.com/in/nate-ferguson-758135221/"
   },
 ];
 const dataLabs = [
@@ -148,15 +178,17 @@ const dataLabs = [
     type: "labs",
     profilImg: "",
     name: "Anresco Laboratories",
-    desc: "LAB 1",
+    desc: "Lab Partner",
     profilLogo: logoZach,
+    site:"http://www.anresco.com/"
   },
   {
     type: "labs",
     profilImg: "",
     name: "Infinite Chemical Analysis Labs",
-    desc: "LAB 2",
+    desc: "Lab Partner",
     profilLogo: logoJosh,
+    site:"https://infinitecal.com/"
   },
 ];
 

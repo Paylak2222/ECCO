@@ -64,7 +64,7 @@ export default function Footer() {
             <div className={style.bio}>
               <ul>
                 <li className={style.head}>Navigation</li>
-                <li>About</li>
+                <Link to="/explore"><li>About</li></Link>
                 <li>
                   <div className={style.row}>
                     Resources
@@ -76,10 +76,10 @@ export default function Footer() {
                 {resourcesList && (
                   <li>
                     <ul>
-                    <li><a target="_blank" href="https://docs.google.com/document/d/1Npz7QUUjnStWYBT0hvBe8d2ysTrwir4eKzv1hSg2HJM/edit?usp=sharing">Overview</a></li>
-                <li><a target="_blank" href="https://www.canva.com/design/DAGRnI6g0s4/3WQEbUP2G91zH4I5nlw9_A/view">Manual</a></li>
-                <li><a target="_blank" href="https://docs.google.com/document/d/1R_3YVtNdOrHnUAM2DCO7e_SZTigSD8cn/edit?usp=sharing&ouid=113439082160299838218&rtpof=true&sd=true">Standards</a></li>
-                <li><a target="_blank" href="https://docs.google.com/document/d/19rtNl41csjsiHQkTDRxm0IO7Cx5SVnqnM4n5E9nt0WI/edit?usp=sharing" >Deck</a></li>
+                      <li><a target="_blank" href="https://docs.google.com/document/d/1Npz7QUUjnStWYBT0hvBe8d2ysTrwir4eKzv1hSg2HJM/edit?usp=sharing">Overview</a></li>
+                      <li><a target="_blank" href="https://docs.google.com/document/d/19rtNl41csjsiHQkTDRxm0IO7Cx5SVnqnM4n5E9nt0WI/edit?usp=sharing">Manual</a></li>
+                      <li><a target="_blank" href="https://docs.google.com/document/d/1R_3YVtNdOrHnUAM2DCO7e_SZTigSD8cn/edit?usp=sharing&ouid=113439082160299838218&rtpof=true&sd=true">Standards</a></li>
+                      <li><a target="_blank" href="https://www.canva.com/design/DAGRnI6g0s4/3WQEbUP2G91zH4I5nlw9_A/view" >Deck</a></li>
                     </ul>
                   </li>
                 )}
@@ -95,15 +95,16 @@ export default function Footer() {
                   <li>
                     <div>
                       <ul>
-                        <li>Brands</li>
-                        <li>Retailers</li>
-                        <li>Labs</li>
+                        <Link to="/system"><li>Founders</li></Link>
+                        <Link to="/system"><li>Technical Advisers</li></Link>
+                        <Link to="/system"><li>Advisory Board</li></Link>
+                        <Link to="/system"><li>Labs</li></Link>
                       </ul>
                     </div>
                   </li>
                 )}
-                <li>Education Hub</li>
-                <li>Apply as a Brand</li>
+                <a href="https://ecco-cannabis.notion.site/" target="_blank"><li>Education Hub</li></a>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfREMu28r_Ke5aymalLEk3gchlCaVJ7jxdW2t0q0dIF4H11lg/viewform?usp=send_form"><li>Apply as a Brand</li></a>
               </ul>
             </div>
             {/* <div className={style.bio}>

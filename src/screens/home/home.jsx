@@ -5,9 +5,9 @@ import Pagination from "../../components/pagination/pagination";
 import SectionOne from "../../components/section_one/section_one";
 import style from "./home.module.css";
 import brandIcon1 from "../../assets/images/image-Resources-pdf/pdf-svgrepo.png";
-import brandIcon2 from "../../assets/images/image-Resources-pdf/pdf-svgrepo2.png";
-import brandIcon3 from "../../assets/images/image-Resources-pdf/pdf-svgrepo3.png";
-import brandIcon4 from "../../assets/images/image-Resources-pdf/pdf-svgrepo3.png";
+import brandIcon2 from "../../assets/images/image-Resources-pdf/pdf-svgrepo2.jpg";
+import brandIcon3 from "../../assets/images/image-Resources-pdf/pdf-svgrepo3.jpg";
+import brandIcon4 from "../../assets/images/image-Resources-pdf/pdf-svgrepo3.jpg";
 import brandFil1 from "../../assets/images/image-Resources-pdf/pdf.png";
 import brandFil2 from "../../assets/images/image-Resources-pdf/pdf.png";
 import brandFil3 from "../../assets/images/image-Resources-pdf/googleForm.png";
@@ -82,9 +82,9 @@ export default function Home() {
           <QuestionSection />
         </div>
       </section>
-      <section className={style.section__six}>
+      {/* <section className={style.section__six}>
         <SystemSection />
-      </section>
+      </section> */}
       <section className={style.section__seven}>
         <EccoTeam />
       </section>

@@ -15,9 +15,9 @@ export default function Labs({ data }) {
                 alt={`${item.name || "No Name"}'s profile`}
               />
             </div>
-            <div className={style.profil__name}>
+            <a href={item.site} target="_blank"><div className={style.profil__name}>
               <p>{item.name || "No Name"}</p>
-            </div>
+            </div></a>
             <div className={style.profil__desc}>
               <p>{item.desc || "No Description"}</p>
             </div>

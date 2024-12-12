@@ -31,12 +31,12 @@ export default function Teams({ data }) {
                 />
               </div>
               <div className={style.profil__name}>
-                <p>{item.name || "No Name"}</p>
+                <a href={item.linkedin} target="_blank"><p>{item.name || "No Name"}</p></a>
               </div>
               <div className={style.profil__desc}>
                 <p>{item.desc || "No Description"}</p>
               </div>
-              <div className={style.profil__logo}>
+              <a href={item.site} target="_blank"><div className={style.profil__logo}>
                 {item.profilLogo ? (
                   <img
                     src={item.profilLogo}
@@ -46,6 +46,7 @@ export default function Teams({ data }) {
                   <span>No Logo</span>
                 )}
               </div>
+              </a>
             </div>
           ))}
         </div>

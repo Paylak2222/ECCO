@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./eccoTeam.module.css";
-import Team1 from "../../assets/images/peoples/Sylvia.png";
+import Team1 from "../../assets/images/peoples/Sylvia.jpg";
 import Team2 from "../../assets/images/peoples/Ford Smith Headshot.jpg";
-import Team3 from "../../assets/images/peoples/Thomas_Martin Headshot .JPG";
-import Team4 from "../../assets/images/peoples/Trent Overholt Headshot.png";
-import Team5 from "../../assets/images/peoples/elliot.jpeg";
+import Team3 from "../../assets/images/peoples/Thomas_Martin Headshot .jpg";
+import Team4 from "../../assets/images/peoples/Trent Overholt Headshot.jpg";
+import Team5 from "../../assets/images/peoples/elliot.jpg";
 import Team6 from "../../assets/images/peoples/Anresco.png";
 import Team7 from "../../assets/images/peoples/Infinite Labs.png";
 

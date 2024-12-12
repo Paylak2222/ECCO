@@ -8,7 +8,7 @@ export default function ChooseUs() {
   const dataLike = [
     {
       description:
-        "Tested for 138 harmful contaminans and passed as non-detectable",
+        "Tested for 138 harmful contaminants and passed as non-detectable",
       icon: like,
     },
     {
@@ -25,7 +25,7 @@ export default function ChooseUs() {
   const dataDislike = [
     {
       description:
-        "Tested for 138 harmful contaminans and passed as non-detectable",
+        "Tested for 138 harmful contaminants and passed as non-detectable",
       icon: dislike,
     },
     {

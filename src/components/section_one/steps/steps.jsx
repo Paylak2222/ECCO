@@ -29,7 +29,9 @@ const Steps = () => {
       title: "Testing & Evaluation*",
       name: "Step 3",
       description:
-        "ECCO purchases two product SKUs from a retailer, sends them for third-party lab testing, and reviews results within seven days to determine if they meet certification standards.",
+        `ECCO purchases two product SKUs from a retailer, sends them for third-party lab testing, and reviews results within seven days to determine if they meet certification standards. <br/><br/>*Manufacturers will be required to submit to ECCO an R&D Certificate of Analysis report conducted with labs Infinite or Anresco that passes ECCO Certification Standards each month.
+Contaminans and passed`
+,
       image: Step2,
     },
     {
@@ -79,7 +81,7 @@ const Steps = () => {
             <p className={styles.stepText}>{step.title}</p>
             {activeStep === index && (
               <div className={styles.stepDescription}>
-                <p>{step.description}</p>
+                <p dangerouslySetInnerHTML={{__html:step.description}}></p>
               </div>
             )}
           </div>

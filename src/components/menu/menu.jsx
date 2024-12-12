@@ -78,9 +78,9 @@ const Menu = () => {
             {isEccoSystemOpen && (
               <ul className={styles.mobileDropdownTwo}>
                 <li><a target="_blank" href="https://docs.google.com/document/d/1Npz7QUUjnStWYBT0hvBe8d2ysTrwir4eKzv1hSg2HJM/edit?usp=sharing">Overview</a></li>
-                <li><a target="_blank" href="https://www.canva.com/design/DAGRnI6g0s4/3WQEbUP2G91zH4I5nlw9_A/view">Manual</a></li>
+                <li><a target="_blank" href="https://docs.google.com/document/d/19rtNl41csjsiHQkTDRxm0IO7Cx5SVnqnM4n5E9nt0WI/edit?usp=sharing">Manual</a></li>
                 <li><a target="_blank" href="https://docs.google.com/document/d/1R_3YVtNdOrHnUAM2DCO7e_SZTigSD8cn/edit?usp=sharing&ouid=113439082160299838218&rtpof=true&sd=true">Standards</a></li>
-                <li><a target="_blank" href="https://docs.google.com/document/d/19rtNl41csjsiHQkTDRxm0IO7Cx5SVnqnM4n5E9nt0WI/edit?usp=sharing" >Deck</a></li>
+                <li><a target="_blank" href="https://www.canva.com/design/DAGRnI6g0s4/3WQEbUP2G91zH4I5nlw9_A/view" >Deck</a></li>
               </ul>
             )}
           </button>
@@ -117,22 +117,22 @@ const Menu = () => {
             </span>
             {isEccoSystemtowOpen && (
               <ul className={styles.mobileDropdown}>
-                <li>Founders</li>
-                <li>Technical Advisers</li>
-                <li>Advisory Board</li>
-                <li>Labs</li>
+                <Link to="/system"><li>Founders</li></Link>
+                <Link to="/system"><li>Technical Advisers</li></Link>
+                <Link to="/system"><li>Advisory Board</li></Link>
+                <Link to="/system"><li>Labs</li></Link>
               </ul>
             )}
           </button>
         </li>
 
         <li>
-          <Link to="/system">
+          <a href="https://ecco-cannabis.notion.site/" target="_blank">
             <button className={`${styles.button}`}>Education Hub</button>
-          </Link>
+          </a>
         </li>
         <li className={styles.donateButton}>
-          <button type="button">Apply as a Brand</button>
+          <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfREMu28r_Ke5aymalLEk3gchlCaVJ7jxdW2t0q0dIF4H11lg/viewform?usp=send_form"><button type="button">Apply as a Brand</button></a>
         </li>
       </ul>
       <div className={styles.logo}>
@@ -194,9 +194,9 @@ const Menu = () => {
             {isEccoSystemOpen && (
               <div className={styles.mobileDropdownTwo}>
                 <div><a target="_blank" href="https://docs.google.com/document/d/1Npz7QUUjnStWYBT0hvBe8d2ysTrwir4eKzv1hSg2HJM/edit?usp=sharing">Overview</a></div>
-                <div><a target="_blank" href="https://www.canva.com/design/DAGRnI6g0s4/3WQEbUP2G91zH4I5nlw9_A/view">Manual</a></div>
+                <div><a target="_blank" href="https://docs.google.com/document/d/19rtNl41csjsiHQkTDRxm0IO7Cx5SVnqnM4n5E9nt0WI/edit?usp=sharing">Manual</a></div>
                 <div><a target="_blank" href="https://docs.google.com/document/d/1R_3YVtNdOrHnUAM2DCO7e_SZTigSD8cn/edit?usp=sharing&ouid=113439082160299838218&rtpof=true&sd=true">Standards</a></div>
-                <div><a target="_blank" href="https://docs.google.com/document/d/19rtNl41csjsiHQkTDRxm0IO7Cx5SVnqnM4n5E9nt0WI/edit?usp=sharing" >Deck</a></div>
+                <div><a target="_blank" href="https://www.canva.com/design/DAGRnI6g0s4/3WQEbUP2G91zH4I5nlw9_A/view" >Deck</a></div>
               </div>
             )}
           </li>
@@ -239,21 +239,21 @@ const Menu = () => {
               <div className={styles.mobileDropdownTwo} onClick={()=>{
                 window.location.hash = "/system";
               }}>
-                <div><a>Founders</a></div>
-                <div><a>Technical Advisers</a></div>
-                <div><a>Advisory Board</a></div>
-                <div><a>Labs</a></div>
+                <div><Link to="/system">Founders</Link></div>
+                <div><Link to="/system">Technical Advisers</Link></div>
+                <div><Link to="/system">Advisory Board</Link></div>
+                <div><Link to="/system">Labs</Link></div>
               </div>
             )}
           </li>
 
           <li>
-            <Link to="/system">
+          <a href="https://ecco-cannabis.notion.site/" target="_blank">
               <button className={`${styles.button}`}>Education Hub</button>
-            </Link>
+            </a>
           </li>
           <li className={styles.donateButton}>
-            <button type="button">Apply as a Brand</button>
+          <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfREMu28r_Ke5aymalLEk3gchlCaVJ7jxdW2t0q0dIF4H11lg/viewform?usp=send_form"><button type="button">Apply as a Brand</button></a>
           </li>
           <li className={styles.social}>
             <div className={styles.icon}>

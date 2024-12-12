@@ -25,11 +25,6 @@ const questions = [
     question: "How can I learn more about ECCO certification?",
     answer:
       `To learn more about ECCO certification and how your cannabis brand can become certified, please contact us at: <a href="mailto:info@eccocert.org">info@eccocert.org</a>`,
-  },
-  {
-    question: "How can I become ECCO certified?",
-    answer:
-      "To become ECCO certified, cannabis brands must meet the organization's rigorous standards for sustainable and regenerative practices. Brands must undergo a thorough assessment of their operations and supply chain to ensure compliance with ECCO's certification requirements. Once certified, brands can display the ECCO seal on their products to showcase their commitment to sustainability.",
   }
 ];
 
