@@ -18,9 +18,10 @@ export default function EccoTeam() {
       image: Team1,
     },
     {
-      name: "Ford Smith",
+      name: "Elliot Lewis",
       position: "ECCO Founding Member",
-      image: Team2,
+      image: Team5,
+      file: "Team",
     },
     {
       name: "Thomas Martin",
@@ -28,24 +29,25 @@ export default function EccoTeam() {
       image: Team3,
     },
     {
+      name: "Ford Smith",
+      position: "ECCO Founding Member",
+      image: Team2,
+    },
+  
+    {
       name: "Trent Overholt",
       position: "ECCO Founding Member",
       image: Team4,
     },
-    {
-      name: "Elliot Lewis",
-      position: "ECCO Founding Member",
-      image: Team5,
-      file: "Team",
-    },
+
     {
       name: "Anresco Laboratories",
-      position: "LAB 1",
+      position: "Lab Partner",
       image: Team6,
     },
     {
       name: "Infinite Chemical Analysis Labs",
-      position: "LAB 2",
+      position: "Lab Partner",
       image: Team7,
     },
   ];

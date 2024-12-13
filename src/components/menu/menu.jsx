@@ -256,16 +256,25 @@ const Menu = () => {
           <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfREMu28r_Ke5aymalLEk3gchlCaVJ7jxdW2t0q0dIF4H11lg/viewform?usp=send_form"><button type="button">Apply as a Brand</button></a>
           </li>
           <li className={styles.social}>
-            <div className={styles.icon}>
-              <img src={facebook} alt="Facebook" />
-            </div>
-            <div className={styles.icon}>
+            <div className={styles.icon} onClick={() =>
+                      window.open("https://x.com/ECCOCert", "_blank")
+                    }>
               <img src={twitter} alt="Twitter" />
             </div>
-            <div className={styles.icon}>
+            <div className={styles.icon} onClick={() =>
+                      window.open(
+                        "https://www.linkedin.com/company/ecco-certified/",
+                        "_blank"
+                      )
+                    }>
               <img src={link} alt="LinkedIn" />
             </div>
-            <div className={styles.icon}>
+            <div className={styles.icon} onClick={() =>
+                      window.open(
+                        "https://www.instagram.com/ecco_cert/",
+                        "_blank"
+                      )
+                    }>
               <img src={instagram} alt="Instagram" />
             </div>
           </li>

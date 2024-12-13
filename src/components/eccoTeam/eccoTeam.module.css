@@ -116,8 +116,10 @@
       font-size: 16px;
       line-height: 21.6px;
       color: #3a3d40;
+      text-align: center;
     }
     & p {
+      text-align: center;
       font-size: 12px;
       line-height: 16.2px;
       color: #3a3d4066;

@@ -8,6 +8,7 @@
     height: auto;
     padding: 12px 24px;
     border-radius: 32px;
+    flex-shrink:0;
     & span{
         font-family: Gilroy;
         font-size: 16px;

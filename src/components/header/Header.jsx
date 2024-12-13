@@ -30,6 +30,7 @@ export default function Header() {
           </span>
         </div>
         <div className={style.items}>
+          <div className={style.itemsContenier}>
           <Item icon={share} text="Ethical compliance" />
           <Item icon={shield} text="Exceeding standards" />
           <Item icon={like} text="Informed choices" />
@@ -37,6 +38,29 @@ export default function Header() {
           <Item icon={global} text="Consumer education" />
           <Item icon={glass} text="Thorough testing" />
           <Item icon={emoji} text="Collaborative engagement" />
+          </div>
+        </div>
+        <div className={style.items}>
+        <div className={style.itemsContenier + " "+ style.second}>
+          <Item icon={emoji} text="Collaborative engagement" />
+          <Item icon={share} text="Ethical compliance" />
+          <Item icon={shield} text="Exceeding standards" />
+          <Item icon={profile} text="Accountable brands" />
+          <Item icon={glass} text="Thorough testing" />
+          <Item icon={like} text="Informed choices" />
+          <Item icon={global} text="Consumer education" />
+          </div>
+        </div>
+        <div className={style.items}>
+        <div className={style.itemsContenier}>
+          <Item icon={glass} text="Thorough testing" />
+          <Item icon={profile} text="Accountable brands" />
+          <Item icon={share} text="Ethical compliance" />
+          <Item icon={global} text="Consumer education" />
+          <Item icon={like} text="Informed choices" />
+          <Item icon={emoji} text="Collaborative engagement" />
+          <Item icon={shield} text="Exceeding standards" />
+          </div>
         </div>
       </div>
       <Menu />

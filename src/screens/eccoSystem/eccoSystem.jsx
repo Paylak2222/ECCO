@@ -76,7 +76,7 @@ export default function EccoSystem() {
             </div>
             <div className={style.textWithImg}>
               <span>
-              Cultivators<img src={Image1}/>, consumers<img src={Image2}/>, retailers, food safety experts<img src={Image3}/>, doctors, brands, public officials<img src={Image4}/>, and labs all play a vital role in shaping<img src={Image5}/> ECCO’s mission.<br/> <br/>Join a community dedicated to consumer safety and environmental responsibility, and discover how you can make a meaningful impact today. <br/><br/>Send us your message to get started.
+              Cultivators <img src={Image1}/>, consumers <img src={Image2}/>, retailers, food safety experts <img src={Image3}/>, doctors, brands, public officials <img src={Image4}/>, and labs all play a vital role in shaping <img src={Image5}/> ECCO’s mission.<br/> <br/>Join a community dedicated to consumer safety and environmental responsibility, and discover how you can make a meaningful impact today. <br/><br/>Send us your message to get started.
               </span>
             </div>
             

@@ -66,10 +66,10 @@ export default function Footer() {
                 <li className={style.head}>Navigation</li>
                 <Link to="/explore"><li>About</li></Link>
                 <li>
-                  <div className={style.row}>
+                  <div className={style.row} onClick={res_click} >
                     Resources
                     <div className={style.icon}>
-                      <img src={arrow} alt="arrow" onClick={res_click} />
+                      <img src={arrow} alt="arrow" />
                     </div>
                   </div>
                 </li>
@@ -84,10 +84,10 @@ export default function Footer() {
                   </li>
                 )}
                 <li>
-                  <div className={style.row}>
+                  <div className={style.row} onClick={ecco_click}>
                     ECCOsystem
                     <div className={style.icon}>
-                      <img src={arrow} alt="arrow" onClick={ecco_click} />
+                      <img src={arrow} alt="arrow"  />
                     </div>
                   </div>
                 </li>

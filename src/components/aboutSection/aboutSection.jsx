@@ -44,7 +44,7 @@ export default function AboutSection() {
         </div>
         <div className={style.sec_about}>
           <div className={style.retailers}>
-            <img src={emoji} alt="Book saved" /> <span>Main-About Us</span>
+            <img src={emoji} alt="Book saved" /> <span>About Us</span>
           </div>
           <h3>Environmental & Consumer Compliance Organization</h3>
           <span>

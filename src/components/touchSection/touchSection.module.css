@@ -43,6 +43,9 @@
   text-decoration: underline;
 }
 @media (max-width: 560px) {
+  .main {
+    padding: 64px 0px;
+  }
   .content {
     padding: 59px 24px 37px 24px;
     width: 100%;

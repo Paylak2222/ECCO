@@ -60,14 +60,44 @@
 }
 
 .items {
-  width: 463px;
-  height: 202px;
   margin-top: 24px;
   display: flex;
-  flex-wrap: wrap;
   gap: 8px;
+  overflow: hidden;
+}
+.itemsContenier{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: #F9F9F9;
+  width: auto;
+  height: auto;
+  border-radius: 32px;
+  flex-shrink: 0;
+  animation: slide 40s linear infinite;
+  animation-direction: alternate-reverse;
+}
+.second {
+  animation-delay: 40s;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% + 472px));
+  }
 }
 @media (max-width: 560px) {
+  @keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100vh + 80px + 472px));
+  }
+}
   .main {
     flex-direction: column-reverse;
     height: calc(100vh - 80px);

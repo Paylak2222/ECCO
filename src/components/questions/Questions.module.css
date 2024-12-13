@@ -103,6 +103,8 @@
     display: flex;
     width: 100%;
     overflow: hidden;
+    transform: translateY(0);
+    margin-top: 34px;
   }
   .leftSide__modile {
     display: flex;
