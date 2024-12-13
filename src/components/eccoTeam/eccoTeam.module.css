@@ -52,6 +52,7 @@
     line-height: 28px;
     margin: 24px 0 0 0;
     color: #3a3d40;
+    text-align: center;
   }
   & p {
     margin: 4px 0 0 0;
@@ -131,6 +132,6 @@
     font-size: 14px;
     line-height: 16.4px;
     border: 0;
-    padding: 25px;
+    padding: 10px;
   }
 }

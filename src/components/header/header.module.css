@@ -79,7 +79,7 @@
   animation-direction: alternate-reverse;
 }
 .second {
-  animation-delay: 40s;
+  animation-delay: -40s;
 }
 @keyframes slide {
   0% {
