@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ECCO/static/css/main.b32e491f.css",
-    "main.js": "/ECCO/static/js/main.87effaa0.js",
+    "main.js": "/ECCO/static/js/main.0847c081.js",
     "static/js/453.3f302d46.chunk.js": "/ECCO/static/js/453.3f302d46.chunk.js",
     "static/media/KevinBrooks-Headshot.png": "/ECCO/static/media/KevinBrooks-Headshot.dae53ac87ce91f81d749.png",
     "static/media/Jen Seo.png": "/ECCO/static/media/Jen Seo.2ff5662f5ed8a30f1c78.png",
@@ -12,6 +12,7 @@
     "static/media/Josh-Swider-Headshot-scaled.jpg": "/ECCO/static/media/Josh-Swider-Headshot-scaled.9a707df05c80a595307d.jpg",
     "static/media/Trent Overholt Headshot.jpg": "/ECCO/static/media/Trent Overholt Headshot.21ad5a86a90c67a1102b.jpg",
     "static/media/Rectangle.png": "/ECCO/static/media/Rectangle.64377b6990b4b4e41e27.png",
+    "static/media/Gary Vandenberghe Headshot.jpeg": "/ECCO/static/media/Gary Vandenberghe Headshot.ad70ef063afdbbd9ebd8.jpeg",
     "static/media/Rectangle2.png": "/ECCO/static/media/Rectangle2.672862dbb7c7b142b6c5.png",
     "static/media/Rectangle3.png": "/ECCO/static/media/Rectangle3.46c6a90b9183107a5b20.png",
     "static/media/Sylvia.jpg": "/ECCO/static/media/Sylvia.2c290f9f3a4692cdbabc.jpg",
@@ -22,7 +23,6 @@
     "static/media/Thomas_Martin Headshot .jpg": "/ECCO/static/media/Thomas_Martin Headshot .f35df452b58acae5f063.jpg",
     "static/media/Nabis.png": "/ECCO/static/media/Nabis.f2a943e717174defb3f0.png",
     "static/media/Ford Smith Headshot.jpg": "/ECCO/static/media/Ford Smith Headshot.e8cfbe7c90e4528125a9.jpg",
-    "static/media/Gary Vandenberghe Headshot.jpeg": "/ECCO/static/media/Gary Vandenberghe Headshot.70093369b87851badc46.jpeg",
     "static/media/KSS.png": "/ECCO/static/media/KSS.905f73e6f179a52cfba4.png",
     "static/media/1.png": "/ECCO/static/media/1.ea4bc7491885b2c01ac2.png",
     "static/media/Noble Pacific.png": "/ECCO/static/media/Noble Pacific.4218ba392ad9f8708301.png",
@@ -30,9 +30,12 @@
     "static/media/4.png": "/ECCO/static/media/4.065fe600bef7945e2b40.png",
     "static/media/pict_1.png": "/ECCO/static/media/pict_1.277071940f24de8d9dca.png",
     "static/media/3.png": "/ECCO/static/media/3.3f830c7908cc73f2c8e5.png",
+    "static/media/pdf-svgrepo3.png": "/ECCO/static/media/pdf-svgrepo3.0ac1ed134854a9075f28.png",
+    "static/media/pdf-svgrepo.png": "/ECCO/static/media/pdf-svgrepo.18d00e650a9930e532da.png",
     "static/media/Jetty-Logo-Black-_1_.png": "/ECCO/static/media/Jetty-Logo-Black-_1_.fc9e5486190ef6813fb7.png",
+    "static/media/pdf-svgrepo4.png": "/ECCO/static/media/pdf-svgrepo4.19bb796db8d19465cc52.png",
+    "static/media/pdf-svgrepo2.png": "/ECCO/static/media/pdf-svgrepo2.4a4b01183a8076e81472.png",
     "static/media/Nate Ferguson, Chief Product Officer, Headshot.jpeg": "/ECCO/static/media/Nate Ferguson, Chief Product Officer, Headshot.4df9a0deadd6bad42905.jpeg",
-    "static/media/pdf-svgrepo2.jpg": "/ECCO/static/media/pdf-svgrepo2.ad663036ec721c5b7844.jpg",
     "static/media/Ultranative Logo Black.png": "/ECCO/static/media/Ultranative Logo Black.cd7ced72554462cf814f.png",
     "static/media/2.png": "/ECCO/static/media/2.47724b12916a861531a9.png",
     "static/media/Gilroy-UltraLightItalic.woff": "/ECCO/static/media/Gilroy-UltraLightItalic.4729ddbc0864a032a5a0.woff",
@@ -72,7 +75,6 @@
     "static/media/Gilroy-Bold.woff2": "/ECCO/static/media/Gilroy-Bold.7c4523252f2964230a1f.woff2",
     "static/media/Gilroy-Regular.woff2": "/ECCO/static/media/Gilroy-Regular.268049693a2671d2ba92.woff2",
     "static/media/Gilroy-BlackItalic.woff2": "/ECCO/static/media/Gilroy-BlackItalic.7177e53f902a4aba8ed5.woff2",
-    "static/media/pdf-svgrepo3.png": "/ECCO/static/media/pdf-svgrepo3.ac0c17a1605d4cfc3b15.png",
     "static/media/Gilroy-Black.woff2": "/ECCO/static/media/Gilroy-Black.e30f64fb189e6f31bea3.woff2",
     "static/media/Gilroy-ExtraBold.woff2": "/ECCO/static/media/Gilroy-ExtraBold.d622f2051c62641ff3af.woff2",
     "static/media/Gilroy-HeavyItalic.woff2": "/ECCO/static/media/Gilroy-HeavyItalic.4738a6f08e817ce16b04.woff2",
@@ -84,7 +86,6 @@
     "static/media/Seal.svg": "/ECCO/static/media/Seal.b1ea4383b66cbc311fd6.svg",
     "static/media/RawGarden_Logos.png": "/ECCO/static/media/RawGarden_Logos.d5c1975f84bc26c4272b.png",
     "static/media/Catalyst.png": "/ECCO/static/media/Catalyst.6ee149ee1250732108ca.png",
-    "static/media/pdf-svgrepo.png": "/ECCO/static/media/pdf-svgrepo.151468f19cdb76d04411.png",
     "static/media/Logo.svg": "/ECCO/static/media/Logo.27abb5a7605e4047c0cb288400cb5299.svg",
     "static/media/like.svg": "/ECCO/static/media/like.44fe919c4d17b05f7d0de14b94ce6664.svg",
     "index.html": "/ECCO/index.html",
@@ -93,11 +94,11 @@
     "static/media/burger-icon.svg": "/ECCO/static/media/burger-icon.b723230a6007eb42c4ffc7d0debf7c69.svg",
     "static/media/x-close.svg": "/ECCO/static/media/x-close.c5e0724fb6279496659299cb125c0698.svg",
     "main.b32e491f.css.map": "/ECCO/static/css/main.b32e491f.css.map",
-    "main.87effaa0.js.map": "/ECCO/static/js/main.87effaa0.js.map",
+    "main.0847c081.js.map": "/ECCO/static/js/main.0847c081.js.map",
     "453.3f302d46.chunk.js.map": "/ECCO/static/js/453.3f302d46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b32e491f.css",
-    "static/js/main.87effaa0.js"
+    "static/js/main.0847c081.js"
   ]
 }
