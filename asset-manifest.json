@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ECCO/static/css/main.b4c1289b.css",
-    "main.js": "/ECCO/static/js/main.c9d2da2b.js",
+    "main.css": "/ECCO/static/css/main.b32e491f.css",
+    "main.js": "/ECCO/static/js/main.87effaa0.js",
     "static/js/453.3f302d46.chunk.js": "/ECCO/static/js/453.3f302d46.chunk.js",
     "static/media/KevinBrooks-Headshot.png": "/ECCO/static/media/KevinBrooks-Headshot.dae53ac87ce91f81d749.png",
     "static/media/Jen Seo.png": "/ECCO/static/media/Jen Seo.2ff5662f5ed8a30f1c78.png",
@@ -34,7 +34,6 @@
     "static/media/Nate Ferguson, Chief Product Officer, Headshot.jpeg": "/ECCO/static/media/Nate Ferguson, Chief Product Officer, Headshot.4df9a0deadd6bad42905.jpeg",
     "static/media/pdf-svgrepo2.jpg": "/ECCO/static/media/pdf-svgrepo2.ad663036ec721c5b7844.jpg",
     "static/media/Ultranative Logo Black.png": "/ECCO/static/media/Ultranative Logo Black.cd7ced72554462cf814f.png",
-    "static/media/pdf-svgrepo3.jpg": "/ECCO/static/media/pdf-svgrepo3.c4c8cf69bea2d6350d39.jpg",
     "static/media/2.png": "/ECCO/static/media/2.47724b12916a861531a9.png",
     "static/media/Gilroy-UltraLightItalic.woff": "/ECCO/static/media/Gilroy-UltraLightItalic.4729ddbc0864a032a5a0.woff",
     "static/media/Gilroy-RegularItalic.woff": "/ECCO/static/media/Gilroy-RegularItalic.da5627c0a8573de2f5c9.woff",
@@ -73,6 +72,7 @@
     "static/media/Gilroy-Bold.woff2": "/ECCO/static/media/Gilroy-Bold.7c4523252f2964230a1f.woff2",
     "static/media/Gilroy-Regular.woff2": "/ECCO/static/media/Gilroy-Regular.268049693a2671d2ba92.woff2",
     "static/media/Gilroy-BlackItalic.woff2": "/ECCO/static/media/Gilroy-BlackItalic.7177e53f902a4aba8ed5.woff2",
+    "static/media/pdf-svgrepo3.png": "/ECCO/static/media/pdf-svgrepo3.ac0c17a1605d4cfc3b15.png",
     "static/media/Gilroy-Black.woff2": "/ECCO/static/media/Gilroy-Black.e30f64fb189e6f31bea3.woff2",
     "static/media/Gilroy-ExtraBold.woff2": "/ECCO/static/media/Gilroy-ExtraBold.d622f2051c62641ff3af.woff2",
     "static/media/Gilroy-HeavyItalic.woff2": "/ECCO/static/media/Gilroy-HeavyItalic.4738a6f08e817ce16b04.woff2",
@@ -92,12 +92,12 @@
     "static/media/arrow-down.svg": "/ECCO/static/media/arrow-down.40dee05ba5e873bfaa4e4f96fedd7fee.svg",
     "static/media/burger-icon.svg": "/ECCO/static/media/burger-icon.b723230a6007eb42c4ffc7d0debf7c69.svg",
     "static/media/x-close.svg": "/ECCO/static/media/x-close.c5e0724fb6279496659299cb125c0698.svg",
-    "main.b4c1289b.css.map": "/ECCO/static/css/main.b4c1289b.css.map",
-    "main.c9d2da2b.js.map": "/ECCO/static/js/main.c9d2da2b.js.map",
+    "main.b32e491f.css.map": "/ECCO/static/css/main.b32e491f.css.map",
+    "main.87effaa0.js.map": "/ECCO/static/js/main.87effaa0.js.map",
     "453.3f302d46.chunk.js.map": "/ECCO/static/js/453.3f302d46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4c1289b.css",
-    "static/js/main.c9d2da2b.js"
+    "static/css/main.b32e491f.css",
+    "static/js/main.87effaa0.js"
   ]
 }
