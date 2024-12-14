@@ -90,6 +90,12 @@
   }
 }
 @media (max-width: 560px) {
+  .second {
+    animation-delay: -20s;
+  }
+  .itemsContenier{
+    animation-duration: 20s;
+  }
   @keyframes slide {
   0% {
     transform: translateX(0);

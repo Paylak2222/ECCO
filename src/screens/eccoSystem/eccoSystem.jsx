@@ -29,7 +29,7 @@ export default function EccoSystem() {
             <div className={style.text}>
               <h1>ECCOsystem</h1>
               <p>
-                Choose ECCO certified brands for unmatched <br />
+                Choose ECCO-certified brands for unmatched <br />
                 quality, backed by science, and trusted for safety.
               </p>
             </div>

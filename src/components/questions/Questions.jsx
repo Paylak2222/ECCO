@@ -33,9 +33,6 @@ const QuestionSection = () => {
     <div >
       <div className={style.wrapper}>
         <span className={style.title}>Questions you may have</span>
-        <div className={style.block__btn}>
-          <button>Contact Us</button>
-        </div>
         <div className={style.content}>
           <div className={style.leftSide}>
             <div className={style.row}>

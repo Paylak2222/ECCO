@@ -15,6 +15,9 @@ export default function TouchSection() {
               for our mailing list to stay informed.
             </span>
           </div>
+          <a href="mailto:info@eccocert.org" ><div className={style.block__btn}>
+              <button>info@eccocert.org</button>
+            </div></a>
         </section>
       </div>
     </div>
