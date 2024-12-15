@@ -41,10 +41,10 @@ export default function EccoSystem() {
                 window.location.hash = "#Technical Advisers";
               }}>Technical Advisers</button>
               <button onClick={() => {
-                window.location.hash = "#Cultivators";
+                window.location.hash = "#Advisory Board";
               }}>Advisory Board</button>
               <button onClick={() => {
-                window.location.hash = "#Consumers";
+                window.location.hash = "#labs";
               }}>Labs</button>              
             </div>
           </div>

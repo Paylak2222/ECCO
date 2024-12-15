@@ -8,6 +8,7 @@ import instagram from "../../assets/images/intsa.png";
 import twitter from "../../assets/images/twitter.png";
 import link from "../../assets/images/link.png";
 import facebook from "../../assets/images/Facebook.png";
+import { HashLink } from "react-router-hash-link";
 const Menu = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -117,10 +118,10 @@ const Menu = () => {
             </span>
             {isEccoSystemtowOpen && (
               <ul className={styles.mobileDropdown}>
-                <Link to="/system"><li>Founders</li></Link>
-                <Link to="/system"><li>Technical Advisers</li></Link>
-                <Link to="/system"><li>Advisory Board</li></Link>
-                <Link to="/system"><li>Labs</li></Link>
+                <HashLink  to="/system#Founders"><li>Founders</li></HashLink >
+                <HashLink  to="/system#Technical Advisers"><li>Technical Advisers</li></HashLink >
+                <HashLink  to="/system#Advisory Board"><li>Advisory Board</li></HashLink >
+                <HashLink  to="/system#labs"><li>Labs</li></HashLink >
               </ul>
             )}
           </button>
@@ -239,10 +240,10 @@ const Menu = () => {
               <div className={styles.mobileDropdownTwo} onClick={()=>{
                 window.location.hash = "/system";
               }}>
-                <div><Link to="/system">Founders</Link></div>
-                <div><Link to="/system">Technical Advisers</Link></div>
-                <div><Link to="/system">Advisory Board</Link></div>
-                <div><Link to="/system">Labs</Link></div>
+                <div><HashLink to="/system#Founders">Founders</HashLink></div>
+                <div><HashLink to="/system#Technical Advisers">Technical Advisers</HashLink></div>
+                <div><HashLink to="/system#Advisory Board">Advisory Board</HashLink></div>
+                <div><HashLink to="/system#labs">Labs</HashLink></div>
               </div>
             )}
           </li>

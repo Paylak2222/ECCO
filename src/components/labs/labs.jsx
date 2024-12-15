@@ -3,7 +3,7 @@ import styleLabs from "./labs.module.css";
 export default function Labs({ data }) {
   return (
     <>
-      <div className={style.teams__title}>
+      <div className={style.teams__title} id="labs">
         <h4>Labs</h4>
       </div>
       <div className={style.teams__flex}>

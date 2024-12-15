@@ -18,7 +18,7 @@ export default function Teams({ data }) {
   return parts.map((part) => {
     return (
       <>
-        <div className={style.teams__title}>
+        <div className={style.teams__title} id={part.type}>
           <h4>{part.type}</h4>
         </div>
         <div className={style.teams__flex}>

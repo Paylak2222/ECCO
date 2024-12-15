@@ -9,6 +9,7 @@ import Team6 from "../../assets/images/peoples/Anresco.png";
 import Team7 from "../../assets/images/peoples/Infinite Labs.png";
 
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function EccoTeam() {
   const eccoTeam = [
@@ -81,11 +82,11 @@ export default function EccoTeam() {
             </div>
           ))}
           <div className={styles.teamMember}>
-            <Link to="/system">
+            <HashLink to="/system#Founders">
               <button className={styles.teamButton}>
                 Get to Know the ECCOsystem
               </button>
-            </Link>
+            </HashLink>
           </div>
         </div>
       </div>

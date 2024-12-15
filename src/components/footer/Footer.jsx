@@ -6,6 +6,7 @@ import link from "../../assets/images/link.png";
 import facebook from "../../assets/images/Facebook.png";
 import arrow from "../../assets/images/arrow-right.png";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function Footer() {
   const [showEccosystemList, setShowEccosystemList] = useState(false);
@@ -95,10 +96,10 @@ export default function Footer() {
                   <li>
                     <div>
                       <ul>
-                        <Link to="/system"><li>Founders</li></Link>
-                        <Link to="/system"><li>Technical Advisers</li></Link>
-                        <Link to="/system"><li>Advisory Board</li></Link>
-                        <Link to="/system"><li>Labs</li></Link>
+                        <HashLink to="/system#Founders"><li>Founders</li></HashLink>
+                        <HashLink to="/system#"><li>Technical Advisers</li></HashLink>
+                        <HashLink to="/system#Technical Advisers"><li>Advisory Board</li></HashLink>
+                        <HashLink to="/system#labs"><li>Labs</li></HashLink>
                       </ul>
                     </div>
                   </li>

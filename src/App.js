@@ -10,7 +10,7 @@ import TermsConditions from "./screens/termsConditions/termsConditions";
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/explore" element={<EccoExplore />} />
@@ -18,7 +18,7 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsConditions />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
