@@ -35,7 +35,7 @@ const data = [
     icon: brandIcon2,
     file: "ECCO Manual",
     fileIcon: brandFil2,
-    link: "https://www.canva.com/design/DAGRnI6g0s4/3WQEbUP2G91zH4I5nlw9_A/view",
+    link: "https://docs.google.com/document/d/19rtNl41csjsiHQkTDRxm0IO7Cx5SVnqnM4n5E9nt0WI/edit?usp=sharing",
   },
   {
     type: "resources",
@@ -53,7 +53,7 @@ const data = [
     icon: brandIcon4,
     file: "PDF File",
     fileIcon: brandFil4,
-    link: "https://docs.google.com/document/d/19rtNl41csjsiHQkTDRxm0IO7Cx5SVnqnM4n5E9nt0WI/edit?usp=sharing",
+    link: "https://www.canva.com/design/DAGRnI6g0s4/3WQEbUP2G91zH4I5nlw9_A/view",
   },
 ];
 

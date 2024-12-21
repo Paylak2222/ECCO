@@ -124,7 +124,7 @@ export default function ChooseUs() {
                 <div className={styles.text_container_right}>
                   <span className={styles.cards_head}>Others</span>
                   <span className={styles.cards_descriptionn}>
-                    Unsafe brands without certification
+                    Brands without certification
                   </span>
                 </div>
               </div>
@@ -173,7 +173,7 @@ export default function ChooseUs() {
               <div className={styles.text_container_right}>
                 <span className={styles.cards_head}>Others</span>
                 <span className={styles.cards_descriptionn}>
-                  Unsafe brands without certification
+                  Brands without certification
                 </span>
               </div>
             </div>

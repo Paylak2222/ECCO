@@ -57,7 +57,7 @@ export default function EccoTeam() {
     <div className="container">
       <div className={styles.ourTeamBlock}>
         <div className={styles.ourTeam}>
-          <h1 className={styles.ourTitle}>Our team</h1>
+          <h1 className={styles.ourTitle}>People</h1>
           <p className={styles.ourText}>
             Our advisory team is comprised of industry leaders and brands who
             are setting a new standard for ethical production of cannabis
